@@ -3006,4 +3006,6 @@
     <string name="vpn_IPSec_secret">Загальний ключ IPSec</string>
     <string name="vpn_IPSec_server_cert">Сертифікат сервера IPSec</string>
     <string name="vpn_IPSec_user_cert">Сертифікат користувача IPSec</string>
+	<string name="rom_author_title">MIUI Сборка</string>
+    <string name="rom_version_title">Проверить обновления</string>
 </resources>
