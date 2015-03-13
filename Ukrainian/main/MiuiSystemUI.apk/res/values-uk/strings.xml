@@ -96,7 +96,7 @@ d MMMM yyyy"</string>
     <string name="description_direction_left">Вліво для %s</string>
     <string name="description_target_search">Пошук</string>
     <string name="status_bar_recent_memory_info1">Вільно %1$s з %2$s</string>
-    <string name="status_bar_recent_memory_info2" />
+    <string name="status_bar_recent_memory_info2"> 2G доступно</string>
     <string name="usb_mode_notification">USB накопичувач</string>
     <string name="usb_mode_dont_ask">"Запам'ятати мій вибір"</string>
     <string name="usb_mode_mount_storage_title">Підключіть USB накопичувач?</string>
