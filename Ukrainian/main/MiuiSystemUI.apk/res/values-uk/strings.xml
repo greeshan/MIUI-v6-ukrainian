@@ -95,8 +95,8 @@ d MMMM yyyy"</string>
     <string name="description_direction_up">Вверх для %s</string>
     <string name="description_direction_left">Вліво для %s</string>
     <string name="description_target_search">Пошук</string>
-    <string name="status_bar_recent_memory_info1">Вільно %1$s з %2$s</string>
-    <string name="status_bar_recent_memory_info2"> 2G доступно</string>
+    <string name="status_bar_recent_memory_info1">Вiльно %1$s из %2$s</string>
+    <string name="status_bar_recent_memory_info2" />
     <string name="usb_mode_notification">USB накопичувач</string>
     <string name="usb_mode_dont_ask">"Запам'ятати мій вибір"</string>
     <string name="usb_mode_mount_storage_title">Підключіть USB накопичувач?</string>
@@ -132,7 +132,7 @@ d MMMM yyyy"</string>
     <string name="camera_key_action_shortcut_home">Додому</string>
     <string name="camera_key_action_shortcut_screenshot">Скріншот</string>
     <string name="camera_key_action_shortcut_search">Пошук</string>
-    <string name="camera_key_action_shortcut_call">Телефон</string>
+    <string name="camera_key_action_shortcut_call">Пристрій</string>
     <string name="camera_key_action_shortcut_wake">Блокування</string>
     <string name="torch_activity_name">Ліхтарик</string>
     <string name="torch_activity_hint">Ліхтарик можна швидко вимкнути, утримуючи [icon] на экрані блокування</string>
@@ -169,10 +169,10 @@ d MMMM yyyy"</string>
     <string name="ext_media_mountable_notification_message">Натисніть для перегляду</string>
     <string name="ext_media_safe_remove">Відключити</string>
     <string name="status_bar_network_flow_today">Сьогодні: %1$s</string>
-    <string name="status_bar_network_flow">Сьогодні: %1$s | Залишилось: %2$s | Всього: %3$s</string>
-    <string name="status_bar_network_flow_exceed">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Всього: %4$s</string>
-    <string name="status_bar_network_flow_exceed_to_purchase">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Оплата ></string>
-    <string name="status_bar_network_flow_warning_to_purchase">Сьогодні: %1$s | Перевищення: %2$s | Оплата ></string>
+    <string name="status_bar_network_flow_content">Сегодня: %1$s | Осталось: %2$s</string>
+    <string name="status_bar_network_flow_exceed_content">Сьогодні: %1$s | Перевищення:&lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_purchase">" | Оплата >"</string>
+    <string name="status_bar_network_flow_limit">" | Всього: %1$s"</string>
     <string name="drive_mode_tip">Ви знаходитись в автомобілі. Будь-ласка, будьте обережні за кермом при роботі з телефоном.</string>
     <string name="no_notification_tips">Немає сповіщень</string>
     <string name="notification_otg_mouse_in">Миша підключена</string>
@@ -245,6 +245,10 @@ d MMMM yyyy"</string>
     <string name="status_bar_toggle_vibrate">Вібрація</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
     <string name="status_bar_toggle_wifi_ap">Wi-Fi точка</string>
+    <string name="status_bar_network_flow">Сьогодні: %1$s | Залишилось: %2$s | Всього: %3$s</string>
+    <string name="status_bar_network_flow_exceed">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Всього: %4$s</string>
     <string name="status_sim_1">SIM 1</string>
     <string name="status_sim_2">SIM 2</string>
+    <string name="status_bar_network_flow_exceed_to_purchase">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Оплата ></string>
+    <string name="status_bar_network_flow_warning_to_purchase">Сьогодні: %1$s | Перевищення: %2$s | Оплата ></string>
 </resources>

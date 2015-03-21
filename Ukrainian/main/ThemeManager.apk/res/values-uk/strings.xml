@@ -28,13 +28,13 @@
     <string name="resource_ranking_free">Безкоштовні</string>
     <string name="resource_ranking_purchase">Платні</string>
     <string name="resource_category">Категорії</string>
-    <string name="resource_my">Телефон</string>
+    <string name="resource_my">Пристрій</string>
     <string name="resource_pack_price_info">"Ціна: 
 %1$s"</string>
     <string name="resource_pack_discount_info">"Економія: 
 %1$s"</string>
-    <string name="resource_pack_confirm">Куплено компонентів теми: %1$d. Буде вигідніше купити повний комплект, ніж докупляти по одному компоненту.</string>
-    <string name="resource_pack_warning">Куплено компонентів теми: %1$d. Буде вигідніше купити інші компоненти по одному, ніж повний комплект.</string>
+    <string name="resource_pack_confirm">Куплено тем: %1$d. Буде вигідніше купити повний комплект, ніж докупляти по одній темі.</string>
+    <string name="resource_pack_warning">Куплено тем: %1$d. Буде вигідніше купити інші теми по одній, ніж повний комплект.</string>
     <string name="resource_title">Інформація</string>
     <string name="resource_download">Скачати</string>
     <string name="resource_downloading">Завантаження…</string>
@@ -192,7 +192,7 @@
     <string name="resource_title_hot_subject">Популярні</string>
     <string name="resource_download_notification_title_one">Завантаження теми завершене</string>
     <string name="resource_download_notification_title_many">Завантажено тем: %1$s</string>
-    <string name="resource_download_notification_content">Натисніть для перегляду</string>
+    <string name="resource_tab_to_view">Натисніть для перегляду</string>
     <string name="app_name">Теми</string>
     <string name="theme_changing_dialog_title">"Застосування теми: "</string>
     <string name="theme_changed_message">Застосоване</string>
@@ -220,7 +220,7 @@
     <string name="theme_component_title_ringtone">Мелодія</string>
     <string name="theme_component_title_notification">Повідомлення</string>
     <string name="theme_component_title_alarm">Будильник</string>
-    <string name="theme_component_title_contact">Телефон</string>
+    <string name="theme_component_title_contact">Пристрій</string>
     <string name="theme_component_title_lockstyle">Екран блокування</string>
     <string name="theme_component_title_statusbar">Рядок стану</string>
     <string name="theme_component_title_launcher">Робочий стіл</string>
@@ -246,8 +246,8 @@
     <string name="apply_default_font_tip">Продовжити використовувати поточний шрифт?</string>
     <string name="theme_yes">ОК</string>
     <string name="theme_no">Скасування</string>
-    <string name="title_component">Компоненти</string>
-    <string name="theme_multiple_button_title_customize">Компоненти</string>
+    <string name="title_component">Ресурси</string>
+    <string name="theme_multiple_button_title_customize">Ресурси</string>
     <string name="title_system_resource">Системні</string>
     <string name="long_ringtone_resource">Довгі</string>
     <string name="short_ringtone_resource">Короткі</string>
@@ -299,7 +299,7 @@
     <string name="theme_favorite_delete_fail">Не вдається видалити з обраних</string>
     <string name="theme_favorite_list_empty">Немає тем</string>
     <string name="theme_favorite_delete">Видалити з обраних</string>
-    <string name="theme_favorite_waiting">Зачекайте...</string>
+    <string name="theme_favorite_waiting">Зачекайте…</string>
     <string name="theme_empty_redirect">Повернутися в маркет тем</string>
     <string name="theme_purchased_non_local">Не локально</string>
     <string name="theme_purchased_list_empty">Немає придбаних тем</string>
@@ -320,7 +320,7 @@
     <string name="gift_present_success_no_sms_dlg_content">Історія подарунків збережена на сторінці вашого Mi облікового запису</string>
     <string name="gift_present_fail_dlg_title">Помилка надсилання</string>
     <string name="gift_present_fail_dlg_content">"Не вдається подарувати тему "</string>
-    <string name="gift_present_dlg_input_hint">Телефон/ID Mi облікового запису</string>
+    <string name="gift_present_dlg_input_hint">Пристрій/ID Mi облікового запису</string>
     <string name="gift_present_dlg_no_fee">При відправці теми у подарунок додаткова плата оператором стягуватися не буде</string>
     <string name="gift_present_dlg_anonymous">Анонімний подарунок</string>
     <string name="gift_present_dlg_share">Створити код і подарувати тему</string>
@@ -330,10 +330,11 @@
     <string name="gift_unbind_fail_dlg_title">Не вдається створити код</string>
     <string name="gift_operation_fail_dlg_retry">Повтор</string>
     <string name="gift_operation_fail_dlg_abandon">Скасувати</string>
-    <string name="gift_operation_waiting">Зачекайте...</string>
+    <string name="gift_operation_waiting">Зачекайте…</string>
     <string name="gift_purchased_list_empty_with_received_list_empty">Немає подарунків</string>
     <string name="gift_purchased_list_empty">Немає відправлених подарунків</string>
     <string name="gift_received_list_empty">Ви не отримували подарунки</string>
+    <string name="gift_received_notification_title">%s подарував(ла) вам тему</string>
     <string name="basic_info">Основна інформація</string>
     <string name="default_name">За замовчуванням</string>
     <string name="maml_component_customization_title">Налаштування</string>
@@ -341,4 +342,5 @@
     <string name="resource_tip_select_ringtone">Мелодія не обрана</string>
     <string name="theme_batch_has_update_text">Доступно оновлень: %1$d</string>
     <string name="resource_unable_to_access">Вміст, який ви шукайте, недоступно у вашій країні</string>
+    <string name="resource_download_notification_content">Натисніть для перегляду</string>
 </resources>

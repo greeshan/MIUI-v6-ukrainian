@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="phoneAppLabel">Телефон</string>
+    <string name="phoneAppLabel">Пристрій</string>
     <string name="inCallLabel">Інтерфейс викликів</string>
     <string name="onscreen_add_call_text">Додати</string>
     <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
@@ -32,7 +32,7 @@
     <string name="onHold">Утримання</string>
     <string name="unknown">Невідомий абонент</string>
     <string name="private_num">Прихований номер</string>
-    <string name="payphone">Телефон-автомат</string>
+    <string name="payphone">Пристрій-автомат</string>
     <string name="callFailed_userBusy">Лінія зайнята</string>
     <string name="callFailed_congestion">Мережа зайнята</string>
     <string name="callFailed_timedOut">Немає відповіді, час вичерпано.</string>
@@ -201,7 +201,7 @@
     <string name="roaming">Інтернет роумінг</string>
     <string name="roaming_enable">Підключатися до служб передачі даних у роумінгу</string>
     <string name="roaming_disable">Підключатися до служб передачі даних у роумінгу</string>
-    <string name="roaming_reenable_message">Передача даних припинена. Телефон знаходиться за межами домашньої мережі.</string>
+    <string name="roaming_reenable_message">Передача даних припинена. Пристрій знаходиться за межами домашньої мережі.</string>
     <string name="roaming_warning">Дозволити інтернет роумінг? Можливі високі витрати за використання роумінгу.</string>
     <string name="gsm_umts_options">Параметри GSM/UMTS</string>
     <string name="cdma_options">Параметри CDMA</string>
@@ -450,7 +450,7 @@
     <string name="ota_skip_activation_dialog_message">Якщо ви пропустите активацію, ви не зможете здійснювати дзвінки і підключатися до мобільних мереж передачі даних (хоча ви зможете підключатися до мереж Wi-Fi). Поки ви не активуєте свій телефон, запит активації буде відображатися при кожному включенні</string>
     <string name="ota_skip_activation_dialog_skip_label">Пропустити</string>
     <string name="ota_activate">Активувати</string>
-    <string name="ota_title_activate_success">Телефон активований!</string>
+    <string name="ota_title_activate_success">Пристрій активований!</string>
     <string name="ota_title_problem_with_activation">Неполадки при активації</string>
     <string name="ota_listen">Дотримуйтесь голосових інструкцій, поки вам не повідомлять, що активація завершена</string>
     <string name="ota_speaker">Динамік</string>
@@ -462,7 +462,7 @@
     <string name="ota_call_end">Назад</string>
     <string name="ota_try_again">Повторіть спробу</string>
     <string name="ota_next">Далі</string>
-    <string name="phone_entered_ecm_text">Телефон переведений в режим екстрених зворотних викликів</string>
+    <string name="phone_entered_ecm_text">Пристрій переведений в режим екстрених зворотних викликів</string>
     <string name="phone_in_ecm_notification_title">Режим екстрених зворотніх викликів</string>
     <string name="phone_in_ecm_call_notification_text">Передача даних відключена</string>
     <string name="alert_dialog_in_ecm_call">"Ця дія неможлива в режимі екстреного зв'язку"</string>
@@ -613,7 +613,7 @@
     <string name="jeejen_answer_call_text">Відповісти</string>
     <string name="jeejen_reject_call_text">Виклик відхилений</string>
     <string name="jeejen_end_call_text">Завершити</string>
-    <string name="jeejen_toggle_dialpad_text">Телефон</string>
+    <string name="jeejen_toggle_dialpad_text">Пристрій</string>
     <string name="jeejen_card_title_dialing">Виклик</string>
     <string name="jeejen_card_title_incoming_call">Вхідний виклик</string>
     <string name="jeejen_card_title_call_cancel">Завершити</string>

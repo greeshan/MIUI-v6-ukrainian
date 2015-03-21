@@ -2,7 +2,7 @@
 <resources>
     <string name="camera_error_title">Помилка камери</string>
     <string name="cannot_connect_camera_once">Не вдалося підключитися до камери</string>
-    <string name="cannot_connect_camera_twice">Не вдалося підключитися до камери. Спробуйте перезавантажити телефон</string>
+    <string name="cannot_connect_camera_twice">Не вдалося підключитися до камери. Спробуйте перезавантажити пристрій.</string>
     <string name="camera_disabled">Камера була відключена через політику безпеки</string>
     <string name="camera_label">Камера</string>
     <string name="wait">Завантаження…</string>
@@ -89,8 +89,8 @@
     <string name="pref_camera_whitebalance_default">auto</string>
     <string name="pref_camera_whitebalance_title">Баланс білого</string>
     <string name="pref_camera_whitebalance_entry_auto">Авто</string>
-    <string name="pref_camera_whitebalance_entry_incandescent">Денний</string>
-    <string name="pref_camera_whitebalance_entry_daylight">Теплий</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Теплий</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Сонячний</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Холодний</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Хмарний</string>
     <string name="pref_camera_whitebalance_entry_manual">Ручний</string>
@@ -269,8 +269,8 @@
     <string name="toast_cannot_preview_image_when_screen_locked">Неможливо переглядати фото або відео, коли екран заблокований</string>
     <string name="pref_priority_storage_title">"Зберігати на зовнішню пам'ять"</string>
     <string name="setting_top_text">Функції</string>
-    <string name="pref_video_speed_fast_title">Прискорена зйомка</string>
-    <string name="pref_video_speed_slow_title">Уповільнена зйомка</string>
+    <string name="pref_video_speed_fast_title">Прискорена</string>
+    <string name="pref_video_speed_slow_title">Уповільнена</string>
     <string name="pref_camera_manual_mode_title">Ручний режим</string>
     <string name="effect_setting_top_text">Фільтри</string>
     <string name="pref_camera_settings">Параметри пристрою</string>
@@ -324,6 +324,9 @@
     <string name="pref_camera_asd_night_title">Нічний режим</string>
     <string name="pref_camera_asd_popup_title">Сповіщати, коли потрібен спалах.</string>
     <string name="simple_mode_button_text_scene">Вимкнути таймер сцени</string>
+    <string name="pref_camera_peak_title">Відображення фокуса</string>
+    <string name="pref_camera_peak_entry_off">вимкнений</string>
+    <string name="pref_camera_peak_entry_on">увімкнений</string>
     <string name="edit">Змінити</string>
     <string name="details">Інформація</string>
     <string name="path">Шлях</string>
@@ -337,11 +340,6 @@
     <string name="location">Місце розташування</string>
     <string name="duration">Тривалість</string>
     <string name="flash">Спалах</string>
-    <string name="save">ОК</string>
-    <string name="no_save">Скасування</string>
-    <string name="pref_camera_multiple_face_beauty_title">Поліпшення тону шкіри</string>
-    <string name="pref_camera_multiple_face_beauty_entry_off">1 людина</string>
-    <string name="pref_camera_multiple_face_beauty_entry_on">2 людини</string>
     <string name="Import">Імпорт</string>
     <string name="accessibilit_camera_video_switch_picker_and_state">Перемикання фото та відео камери (використовується %s)</string>
     <string name="accessibility_camera_auto_flashmode">Автоспалах</string>
@@ -359,7 +357,7 @@
     <string name="aperture">Діафрагма</string>
     <string name="app_details">Інформація про застосунок:</string>
     <string name="auto">Авто</string>
-    <string name="bg_replacement_message">"Встановіть телефон нерухомо. 
+    <string name="bg_replacement_message">"Встановіть пристрій нерухомо. 
 на якийсь час відійдіть від об'єктива"</string>
     <string name="can_not_play_video">Розблокування екрана для відтворення</string>
     <string name="cancel">Скасування</string>
@@ -377,7 +375,7 @@
     <string name="contact_name">"Ім'я"</string>
     <string name="contact_nickname">Нік</string>
     <string name="contact_note">Замітка</string>
-    <string name="contact_phone">Телефон</string>
+    <string name="contact_phone">Пристрій</string>
     <string name="contact_title">Назва</string>
     <string name="contact_web">Сайт</string>
     <string name="copy_text">Копіювати текст</string>
@@ -450,6 +448,7 @@
     <string name="measure_whitebalance_button">ОК</string>
     <string name="measure_whitebalance_text">"Розмістіть аркуш білого паперу на відстані 15см від об'єктива камери, потім зробіть знімок"</string>
     <string name="mimetype">Тип MIME</string>
+    <string name="no_save">Скасування</string>
     <string name="no_thumbnail">Немає ескізу</string>
     <string name="not_selectable_in_scene_mode">Недоступно в режимі сюжету</string>
     <string name="ok">ОК</string>
@@ -474,6 +473,9 @@
     <string name="pref_camera_long_pressing_burst_shooting_entry_off">Вимкнена</string>
     <string name="pref_camera_long_pressing_burst_shooting_entry_on">Увімкнена</string>
     <string name="pref_camera_long_pressing_burst_shooting_title">Серійна зйомка</string>
+    <string name="pref_camera_multiple_face_beauty_entry_off">1 людина</string>
+    <string name="pref_camera_multiple_face_beauty_entry_on">2 людини</string>
+    <string name="pref_camera_multiple_face_beauty_title">Поліпшення тону шкіри</string>
     <string name="pref_camera_picture_format_title">Формат фото</string>
     <string name="pref_camera_picturesize_entry_2592x1456">4 Мп (2592x1456)</string>
     <string name="pref_camera_picturesize_entry_2592x1936">5 Мп (2592x1936)</string>
@@ -504,6 +506,7 @@
     <string name="review_cancel">Скасування</string>
     <string name="rotate_left">Повернути вліво</string>
     <string name="rotate_right">Повернути вправо</string>
+    <string name="save">ОК</string>
     <string name="scan_qrcode">Сканування QR коду</string>
     <string name="secure_access_web_url">Відкрити в браузері</string>
     <string name="see_app_details">Інформація про застосунок</string>

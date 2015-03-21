@@ -154,7 +154,7 @@
     <string name="saturday_shortest">З</string>
     <string name="name">"Ім'я"</string>
     <string name="nickname">Нік</string>
-    <string name="phone">Телефон</string>
+    <string name="phone">Пристрій</string>
     <string name="email">Email</string>
     <string name="organization">Організація</string>
     <string name="sip_phone">SIP телефон</string>

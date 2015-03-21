@@ -33,8 +33,8 @@
     <string name="resource_pack_price_info">Ціна: 1$s</string>
     <string name="resource_pack_discount_info">"Економія: 
 %1$s"</string>
-    <string name="resource_pack_confirm">Куплено компонентів теми: %1$d. Буде вигідніше купити повний комплект, а ніж докупити по одному компоненту.</string>
-    <string name="resource_pack_warning">Куплено компонентів теми: %1$d. Буде вигідніше купити інші компоненти по одному, ніж повний комплект.</string>
+    <string name="resource_pack_confirm">Куплено тем: %1$d. Буде вигідніше купити повний комплект, чем докупати по одній темі.</string>
+    <string name="resource_pack_warning">Куплено тем: %1$d. Буде вигідніше купити інші компоненти по одному, ніж повний комплект.</string>
     <string name="resource_title">Інформація</string>
     <string name="resource_download">Скачати</string>
     <string name="resource_downloading">Завантаження</string>
@@ -191,8 +191,8 @@
     <string name="resource_title_hot_subject">Популярні</string>
     <string name="resource_download_notification_title_one">Завантаження теми завершене</string>
     <string name="resource_download_notification_title_many">Завантажено тем: %1$s</string>
-    <string name="resource_download_notification_content">Натисніть для перегляду</string>
-    <string name="launcherDialer">Телефон</string>
+    <string name="resource_tab_to_view">Натисніть для перегляду</string>
+    <string name="launcherDialer">Пристрій</string>
     <string name="people">Контакти</string>
     <string name="contactsList">Контакти</string>
     <string name="shortcutContact">Контакти</string>
@@ -260,7 +260,7 @@
     <string name="createContactShortcutSuccessful">Віджет контакту доданий на робочий стіл</string>
     <string name="pickerNewContactHeader">Створити новий контакт</string>
     <string name="pickerNewContactText">Створити новий контакт</string>
-    <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phoneLabelsGroup">Пристрій</string>
     <string name="emailLabelsGroup">Email</string>
     <string name="imLabelsGroup">"Iм'я"</string>
     <string name="postalLabelsGroup">Адреса</string>
@@ -313,7 +313,7 @@
     <string name="voicemail">Голосова пошта</string>
     <string name="unknown">Невідомо</string>
     <string name="private_num">Прихований номер</string>
-    <string name="payphone">Телефон-автомат</string>
+    <string name="payphone">Пристрій-автомат</string>
     <string name="dialerKeyboardHintText">Для набору використовуйте клавіатуру</string>
     <string name="dialerDialpadHintText">Наберіть номер, щоб додати виклик</string>
     <string name="simContacts_emptyLoading">Завантаження контактів з SIM карти…</string>
@@ -498,7 +498,7 @@
     <string name="call_pager">Пейджер</string>
     <string name="call_other">Виклик</string>
     <string name="call_callback">Зворотний виклик</string>
-    <string name="call_car">Телефон у машині</string>
+    <string name="call_car">Пристрій у машині</string>
     <string name="call_company_main">Офіс</string>
     <string name="call_isdn">Номер ISDN</string>
     <string name="call_main">Основний телефон</string>
@@ -740,9 +740,6 @@
     <string name="sim_card_no_free_space_title">SIM карта заповнена!</string>
     <string name="sim_card_no_free_space_message">"Недостатньо пам'яті"</string>
     <string name="sim_contacts">Контакти на SIM карті</string>
-    <string name="export_sim_contacts_dialog_message">"Експортувати контакти на SIM карту? 
-
-свободно: %d"</string>
     <string name="export_sim_contact_finish">Експорт завершений</string>
     <string name="sim_export_loading">Читання SIM карти…</string>
     <string name="sim_capacity">Ємність SIM карти</string>
@@ -754,8 +751,6 @@
     <string name="pref_key_sim_manage2">Контакти SIM карти 2</string>
     <string name="simContacts_airplaneMode">Відключіть режим польоту для імпорту контактів з SIM карти</string>
     <string name="readingSimContacts">Читання контактів з SIM карти…</string>
-    <string name="confirm_delete_sim_entry_miui">"Видалити обрані контакти з SIM карти? 
-контактів: %d"</string>
     <string name="importing_sim_contacts_miui">Імпортування контактів з SIM карти…</string>
     <string name="import_sim_entries_finish">Імпорт контактів з SIM карти завершений</string>
     <string name="deleting_sim_entry_miui">Видалення контактів з SIM карти…</string>
@@ -860,7 +855,6 @@
     <string name="preference_import_export">Імпорт і експорт</string>
     <string name="preference_import_export_title">Імпорт і експорт</string>
     <string name="export_vcard_description">"Експорт vСard у пам'ять телефону"</string>
-    <string name="export_sim_contact_finish_success">Скопійоване контактів: %d</string>
     <string name="export_sim_contact_finish_failure">"Недостатньо місця. 
 
 скопійовано: %1$d 
@@ -896,7 +890,7 @@
     <string name="preference_telocation_summary_teloc_off">Приховувати місце розташування</string>
     <string name="preference_telocation_summary_countrycode_on">Додавати код країни автоматично</string>
     <string name="preference_telocation_summary_countrycode_off">Не додавати код країни автоматично</string>
-    <string name="preference_phone">Телефон</string>
+    <string name="preference_phone">Пристрій</string>
     <string name="preference_dial_pad_touch_tone_title">Номеронабирач</string>
     <string name="preference_auto_ip_title">Автонабор IP</string>
     <string name="preference_auto_ip_summary_disable">Не включене</string>
@@ -989,8 +983,6 @@
     <string name="select_photo_from_photo_package">Вибрати фото з пакету</string>
     <string name="select_new_photo_from_photo_package">Вибрати нове фото з пакету</string>
     <string name="photo_package_activity_title">Фото з пакету</string>
-    <string name="btn_delete_one_contact">Видалити</string>
-    <string name="btn_delete_multi_contacts">Видалити контакти (%d)</string>
     <string name="btn_split_contact">Розділити контакт</string>
     <string name="use_photo_as_primary2">Використовувати фото контакту %1$s</string>
     <string name="label_custom_type">Користувацький</string>
@@ -1078,11 +1070,6 @@
     <string name="add_xiaomi_account_dialog_btn">В Mi акаунт</string>
     <string name="keep_local_btn">У телефон</string>
     <string name="batch_delete">Пакетне видалення</string>
-    <string name="batch_delete_msg">"Видалити обрані контакти? 
-
-Контактів: %d 
-
-Дані, які зберігаються у Mi Cloud також будуть видалені."</string>
     <string name="starred_contacts">Вибрані</string>
     <string name="other_contacts">Інші</string>
     <string name="set_photo_failed_msg">Помилка встановлення фото</string>
@@ -1122,6 +1109,7 @@
     <string name="yellowPageNavigationIconLabel">Сервіси</string>
     <string name="login_ok">Вхід</string>
     <string name="yellowpage_navigation_no_content">Немає результатів</string>
+    <string name="yellowpage_navigation_search_history">Історія</string>
     <string name="yellowpage_navigation_clear_search_history">Очистити історію</string>
     <string name="yellowpage_navigation_search_offline_hint">Інтернет недоступний</string>
     <string name="refresh">Оновити</string>
@@ -1145,7 +1133,6 @@
     <string name="imei_invalid">Невірний IMEI</string>
     <string name="meid_invalid">Невірний MEID</string>
     <string name="firewall_setting">Чорний список</string>
-    <string name="callNoAnswerTimeFormat">" | Гудків: %s"</string>
     <string name="menu_edit_mode">Режим редагування</string>
     <string name="clip_dialog_title">Викликати скопійований номер?</string>
     <string name="edit_contact_photo">Змінити фото контакту</string>
@@ -1156,12 +1143,27 @@
     <string name="pull_to_refresh_pull_label">Потягніть вниз для оновлення</string>
     <string name="pull_to_refresh_release_label">Відпустіть для оновлення</string>
     <string name="pull_to_refresh_refreshing_label">Завантаження…</string>
+    <string name="export_sim_contacts_dialog_message">"Експортувати контакти на SIM карту? 
+
+свободно: %d"</string>
+    <string name="confirm_delete_sim_entry_miui">"Видалити обрані контакти з SIM карти? 
+контактів: %d"</string>
+    <string name="export_sim_contact_finish_success">Скопійоване контактів: %d</string>
+    <string name="btn_delete_one_contact">Видалити</string>
+    <string name="btn_delete_multi_contacts">Видалити контакти (%d)</string>
+    <string name="batch_delete_msg">"Видалити обрані контакти? 
+
+Контактів: %d 
+
+Дані, які зберігаються у Mi Cloud також будуть видалені."</string>
+    <string name="callNoAnswerTimeFormat">" | Гудків: %s"</string>
     <string name="none_found">Пристрої не знайдені</string>
     <string name="resource_get_auth_missing">Теми завантажені зі сторонніх джерел не підтримуються</string>
     <string name="resource_tip_select_ringtone">Мелодія не обрана</string>
     <string name="scanning">Пошук пристроїв…</string>
     <string name="select_device">Виберіть пристрій</string>
     <string name="resource_unable_to_access">Вміст, який ви шукайте, недоступно у вашій країні</string>
+    <string name="resource_download_notification_content">Натисніть для перегляду</string>
     <string name="check_unsynchronized_accounts">Сповіщати про синхронізацію акаунтів</string>
     <string name="contact_detail_picture_description">Змінити фото</string>
     <string name="device_import_done_toast">Контактів імпортовано: %1$d</string>

@@ -105,6 +105,12 @@
     <string name="sns_choose_quality_title">Якість зображення</string>
     <string name="sns_choose_quality_high">Високе (%1$s)</string>
     <string name="sns_choose_quality_low">Низьке</string>
+    <string name="welcome_note_for_cm">"Та інші цікаві можливості:
+  - Синхронізація з Mi Cloud
+  - Збереження при виході
+  - Установка нагадувань
+
+"</string>
     <string name="sns_message_building">Створення повідомлення…</string>
     <string name="sns_message_sending">Відправлення…</string>
     <string name="widget_under_visit_mode">Неможливо переглянути нотатки в режимі \"Гість\"</string>

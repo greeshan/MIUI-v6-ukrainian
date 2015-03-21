@@ -17,7 +17,7 @@
     <string name="button_continue">Продовжити</string>
     <string name="backup_finished">"Створення бекапа завершене "</string>
     <string name="backup_report">Звіт</string>
-    <string name="backup_hint">Не виключайте телефон</string>
+    <string name="backup_hint">Не виключайте пристрій</string>
     <string name="menu_patch_delete">Видалити бекапи</string>
     <string name="delete">Видалити</string>
     <string name="cancel">Скасування</string>
@@ -35,7 +35,7 @@
     <string name="restore_report">Журнал відновлення</string>
     <string name="restore_progress">Відновлення…</string>
     <string name="restore_contacts_hit">Для відновлення контактів необхідно ввійти в акаунт</string>
-    <string name="restore_telephony_hit">Процес відновлення перезавантажить застосунок \"Телефон\"</string>
+    <string name="restore_telephony_hit">Процес відновлення перезавантажить застосунок \"Пристрій\"</string>
     <string name="restore_launcher_layout_hit">Відновити настроювання робочого стола</string>
     <string name="settings_summary">" (настроювання телефону й повідомлень)"</string>
     <string name="account_summary">" (акаунти та інші дані користувача)"</string>
@@ -87,7 +87,7 @@
     <string name="sdcard_no_enough_space">Недостатньо вільного місця</string>
     <string name="sdcard_no_enough_space_message">Недостатньо вільного місця на SD карті</string>
     <string name="data_no_enough_space">Недостатньо вільного місця</string>
-    <string name="data_no_enough_space_message">"Недостатньо вільного місця в пам'яті телефону"</string>
+    <string name="data_no_enough_space_message">"Недостатньо вільного місця в пам'яті пристрою"</string>
     <string name="task_running_hint">Служба вже працює у фоновому режимі</string>
     <string name="task_running_dialog">Бекап і відновлення працюють у фоновому режимі. Натисніть \"ОК\" для перегляду</string>
     <string name="task_running_backup_hint">Служба вже працює у фоновому режимі</string>

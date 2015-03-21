@@ -12,6 +12,7 @@
     <string name="unknown_artist_name">Невідомий виконавець</string>
     <string name="unknown_album_name">Невідомий альбом</string>
     <string name="network_error">Мережа недоступна</string>
+    <string name="server_error">Помилка сервера. Спробуйте пізніше.</string>
     <string name="lrc_search_failed">Текст пісні не знайдений</string>
     <string name="lrc_searching">Пошук тексту пісні…</string>
     <string name="lyric_open_other_connect">Завантаження текстів через мобільний інтернет відключено</string>
@@ -26,6 +27,8 @@
     <string name="impunity_declaration_ignore">"Запам'ятати"</string>
     <string name="impunity_declaration_settings">Запитувати доступ до інтернету</string>
     <string name="impunity_declaration_summary">Запит доступу до інтернету при кожному запуску програвача</string>
+    <string name="impunity_declaration_positive_text">ОК</string>
+    <string name="impunity_declaration_negative_text">Вихід</string>
     <string name="take_effect_afater_restart">Для застосування даної функції необхідно запустити програвач знову</string>
     <string name="equalizer">Еквалайзер</string>
     <string name="eq_flat">Стандарт</string>
@@ -58,6 +61,7 @@
     <string name="fragment_title_channel">Радіо</string>
     <string name="fragment_title_artist">Виконавці</string>
     <string name="fragment_title_artist_album">Альбоми</string>
+    <string name="fragment_title_personal">ОСОБИСТЕ</string>
     <string name="like">Подобається</string>
     <string name="all_tracks">Всі треки</string>
     <string name="all_tracks_short">Всі</string>
@@ -189,8 +193,8 @@
     <string name="no_favorites_songs">Немає треків</string>
     <string name="no_local_songs">Немає треків</string>
     <string name="no_local_songs_selected">Неможливо відправити трек, який не завантажений</string>
-    <string name="track_main_fragment_tab_track">Трек</string>
-    <string name="track_main_fragment_tab_album">Альбом</string>
+    <string name="track_main_fragment_tab_track">Треки</string>
+    <string name="track_main_fragment_tab_album">Альбоми</string>
     <string name="no_online_song_selected">Треки не обрані</string>
     <string name="is_loading_data">Завантаження треків…</string>
     <string name="search_title_singer">Виконавці</string>
@@ -203,7 +207,7 @@
     <string name="metered_play_toast">Відтворення музики онлайн</string>
     <string name="no_results_return">Немає результатів</string>
     <string name="list_item_play_FM_radio">Відтворити радіо</string>
-    <string name="baidu_music">Музика Baidu</string>
+    <string name="baidu_music">Baidu</string>
     <string name="local_music">Локальні</string>
     <string name="local_tracks_short">Локальні</string>
     <string name="tab_local_track_list">Треки</string>
@@ -280,8 +284,13 @@
     <string name="search_for_artist">Виконавець</string>
     <string name="search_for_album">Альбом</string>
     <string name="support_online_only">Доступно тільки онлайн</string>
+    <string name="suggest_text">Користувачам також сподобалося</string>
     <string name="no_artist_info">Немає інформації про виконавця</string>
     <string name="no_album_info">Немає інформації про альбом</string>
+    <string name="no_enough_info">Недостатньо інформації про трек</string>
+    <string name="disallow_add_to_personal_radio">Приватне радіо доступне тільки для прослуховування</string>
+    <string name="today_update">Музика оновлена</string>
+    <string name="click_to_view_new_local_audios">Натисніть для перегляду інформації</string>
     <string name="download_auto_after_preference_summary">Автоматично завантажувати треки, котрі ви відмітили як вибрані.</string>
     <string name="download_auto_after_preference_title">Скачувати вибрані</string>
     <string name="dialog_button_agree">ОК</string>

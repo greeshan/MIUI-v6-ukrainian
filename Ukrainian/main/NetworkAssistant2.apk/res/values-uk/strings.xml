@@ -92,7 +92,7 @@
     <string name="pref_category_title_other">Додатково</string>
     <string name="pref_title_update_notification">Трафік в панелі сповіщень</string>
     <string name="pref_title_traffic_speed_state">Швидкість мережі</string>
-    <string name="pref_show_mobile_traffic">Відображати використаний трафік у сплячому режимі після розблокування екрана. Телефон повинен перебувати в режимі сну не менш 3 хвилин</string>
+    <string name="pref_show_mobile_traffic">Відображати використаний трафік у сплячому режимі після розблокування екрана. Пристрій повинен перебувати в режимі сну не менш 3 хвилин</string>
     <string name="pref_title_mobile_traffic">Трафік при розблокуванні</string>
     <string name="pref_title_declaration">Відмова від відповідальності</string>
     <string name="pref_about">Про програму</string>
@@ -187,7 +187,7 @@
     <string name="network_assistant_upgraded_title">Межа трафіку не встановлена</string>
     <string name="network_assistant_upgraded_body">Натисніть для налаштування</string>
     <string name="lock_screen_traffic_warn_title">Попередження про трафік</string>
-    <string name="lock_screen_traffic_notify_body">Трафік при увімкненому екрані: %s</string>
+    <string name="lock_screen_traffic_notify_body">Екран заблоковано: %1$s | Використано даних: %2$s</string>
     <string name="lock_screen_setting_summary">Показувати сповіщення після використання 100 Кб</string>
     <string name="timeshow_h_m">%1$d г. %2$d хв.</string>
     <string name="timeshow_m_s">%1$d хв. %2$d сек.</string>
@@ -391,7 +391,7 @@
     <string name="traffic_setting_open">Увімкнено</string>
     <string name="traffic_setting_app_count">Застосунків: %d</string>
     <string name="traffic_setting_update_template_falure">Не вдається підключитися до інтернету</string>
-    <string name="traffic_warning_purchase_title">Сповіщати, коли баланс менше %d%%</string>
+    <string name="traffic_warning_purchase_title">Попередження про трафік</string>
     <string name="traffic_purchase_body">Рекомендується поповнити рахунок</string>
     <string name="traffic_purchse_suggestion">Час поповнити рахунок</string>
     <string name="traffic_over_purchase_title">Трафік перевищено</string>

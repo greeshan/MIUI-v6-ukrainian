@@ -30,7 +30,7 @@ EEEE"</string>
     <string name="experimental_validate_fail">Помилка авторизації</string>
     <string name="lockscreen_glogin_invalid_input">"Невірне ім'я користувача або пароль"</string>
     <string name="find_device_turn_off_flight_mode">Вимкнути режим польоту</string>
-    <string name="phone_locked_string">Телефон заблоковано</string>
+    <string name="phone_locked_string">Пристрій заблоковано</string>
     <string name="phone_locked_timeout_seconds_string">Повторіть спробу через %s сек.</string>
     <string name="phone_locked_timeout_minutes_string">Повторіть спробу через %s хв.</string>
     <string name="input_password_hint_text">Введіть пароль</string>
@@ -41,7 +41,7 @@ EEEE"</string>
     <string name="lockscreen_access_pattern_cell_added">Оператор доданий</string>
     <string name="lockscreen_access_pattern_detected">Кінець ключа</string>
     <string name="default_lockscreen_unlock_hint_text">Розблокувати</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Ви ввели пароль невірно %d раз(а). Після %d невірних спроб вводу вам буде запропоновано розблокувати телефон за допомогою Mi облікового запису.
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Ви ввели пароль невірно %d раз(а). Після %d невірних спроб вводу вам буде запропоновано розблокувати пристрій за допомогою Mi облікового запису.
 
 Повторіть спробу через %d секунд."</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Ви ввели пароль невірно %d раз(а). Після %d невірних спроб всі дані будуть очищені і відновлені заводські налаштування.</string>
@@ -76,11 +76,12 @@ EEEE"</string>
     <string name="return_to_me_message">Ви можете повернутися</string>
     <string name="lockscreen_glogin_instructions">Ввійдіть в Mi акаунт для розблокування</string>
     <string name="screen_on_proximity_sensor_title">Запобігання випадкових натискань</string>
-    <string name="screen_on_proximity_sensor_summary">Використовувати датчик наближення для запобігання випадкових натискань на екран заблокованого телефону</string>
+    <string name="screen_on_proximity_sensor_summary">Використовувати датчик наближення для запобігання випадкових натискань на екран заблокованого пристрою</string>
     <string name="screen_on_proximity_sensor_hint">Примусовий вихід: натисніть кнопки \"Назад\"+\"Гучність +\"</string>
     <string name="lockscreen_glogin_forgot_pattern">Розблокувати обліковий запис</string>
     <string name="lockscreen_glogin_too_many_attempts">Занадто багато спроб введення</string>
-    <string name="find_device_turn_off_flight_mode_instructions">Ваш телефон заблоковано. будь ласка, вимкніть режим польоту.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">"Ваш пристрій заблоковано. 
+Вимкніть режим польоту."</string>
     <string name="find_device_check_sim">Перевірка SIM карти...</string>
     <string name="starting_camera_string">Запуск камери</string>
     <string name="bluetooth_unlock_rssi_far_debug_msg">Bluetooth пристрій знаходиться занадто далеко, щоб розблокувати.</string>

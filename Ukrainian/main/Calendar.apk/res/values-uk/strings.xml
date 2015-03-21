@@ -164,6 +164,7 @@
     <string name="template_announce_item_index">Захід %1$s з %2$s</string>
     <string name="acessibility_selected_marker_description">Обраний захід</string>
     <string name="do_not_check">Не перевіряти -></string>
+    <string name="add_topic_unsuccess">Не вдалось підписатись на \"%s\"</string>
     <string name="user_notice_online_title">Повідомлення</string>
     <string name="user_notice_online_ok">Продовжити</string>
     <string name="not_exist_topic_list">Не вдається отримати список календарів</string>
@@ -191,7 +192,7 @@
     <string name="event_action_edit">Змінити</string>
     <string name="lunar_date">Місячна дата</string>
     <string name="widget_select_style">Виберіть стиль</string>
-    <string name="widget_events">Наступні заходи</string>
+    <string name="widget_events">Перегляд заходів</string>
     <string name="widget_no_events">Немає заходів</string>
     <string name="month_medium_january">Січень</string>
     <string name="month_medium_february">Лютий</string>
@@ -222,8 +223,8 @@
     <string name="birthday_calendar_display_name">Нагадування про дні народження</string>
     <string name="xiaomi_calendar_display_name">Календар Xiaomi</string>
     <string name="local_owner_account_name">Локальний акаунт</string>
-    <string name="birthday_term">день народження</string>
-    <string name="anniversary_term">ювілей</string>
+    <string name="birthday_term">День народження</string>
+    <string name="anniversary_term">Ювілей</string>
     <string name="birthday_notification_title_today">%3$s: %1$s</string>
     <string name="birthday_notification_text_today">Не забудьте поздоровити!</string>
     <string name="birthday_notification_title_three_days_later">Скоро %2$s: %1$s</string>
@@ -261,7 +262,13 @@
     <string name="repeat_label_choose_day">Виберіть день</string>
     <string name="repeat_label_choose_week">Виберіть тиждень</string>
     <string name="repeat_label_choose_month">Виберіть місяць</string>
-    <string name="repeat_end_label">Повтор закінчення</string>
+    <string name="repeat_end_label">Закінчення повтору</string>
+    <string name="repeat_end_times_unit">" раз"</string>
+    <string name="sync_notice_title">Запит синхронізації</string>
+    <string name="sync_notice_message">Включити синхрониіацію даних календара з Mi Cloud?</string>
+    <string name="sync_notice_ok">ОК</string>
+    <string name="sync_notice_ok_toast_message">Локальні дані календара будуть синхронуватись з Mi Cloud</string>
+    <string name="sync_notice_cancel_toast_message">Локальні дані календара не будуть синхронуватись з Mi Cloud</string>
     <string name="more_string">Ще %1$s…</string>
     <string name="copy_email">Копіювати адресу Email</string>
     <string name="copy_number">Копіювати номер телефону</string>

@@ -20,8 +20,8 @@
         <item quantity="other">%d тижд.</item>
     </plurals>
     <plurals name="month_more_events">
-        <item quantity="other">" і ще %d"</item>
-        <item quantity="one">" і ще 1"</item>
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
     </plurals>
     <plurals name="Nevents">
         <item quantity="other">%d подій</item>

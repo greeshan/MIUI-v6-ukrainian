@@ -167,9 +167,9 @@
     <string name="bankcall_name_hint">"Ім'я на банківській карті"</string>
     <string name="bankcall_id_card">ID карти</string>
     <string name="bankcall_id_card_hint">ID на банківській карті</string>
-    <string name="bankcall_phone">Телефон</string>
+    <string name="bankcall_phone">Пристрій</string>
     <string name="bankcall_phone_debit_hint">Забезпечення стабільної мережі</string>
-    <string name="bankcall_phone_credit_hint">Телефон на банківській карті</string>
+    <string name="bankcall_phone_credit_hint">Пристрій на банківській карті</string>
     <string name="bankcall_hint">Цей сервіс авторизований Unionpay і має шифрування для забезпечення вашої фінансової безпеки</string>
     <string name="bankcall_call_hint">"Вам подзвонять із Union pay (020-96585). 
 слідуєте інструкціям для завершення"</string>

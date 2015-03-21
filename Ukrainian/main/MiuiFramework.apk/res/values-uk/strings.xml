@@ -32,9 +32,9 @@
     <string name="screen_rotation_freeze_message">Поворот екрану заблокований</string>
     <string name="screen_button_disabled_message">Клавіші навігації відключені. Ви можете включити їх знову, натиснувши клавіші \"Додому\" + \"Живлення\".</string>
     <string name="screen_button_enabled_message">Клавіші навігації включені</string>
-    <string name="shutdown_confirm_title">Вимкнути телефон?</string>
+    <string name="shutdown_confirm_title">Вимкнути пристрій?</string>
     <string name="shutdown_progress">Вимикання...</string>
-    <string name="reboot_confirm_title">Перезавантажити телефон?</string>
+    <string name="reboot_confirm_title">Перезавантажити пристрій?</string>
     <string name="reboot_progress">Перезавантаження...</string>
     <string name="memory_clear_result">"Очищено: %1$s
 Вільно: %2$s"</string>
@@ -51,7 +51,7 @@
     <string name="global_actions_shutdown">Вимкнути</string>
     <string name="global_actions_silent_mode">Режим \"Без звуку\"</string>
     <string name="screen_on_proximity_sensor_title">Запобігання випадкових натискань</string>
-    <string name="screen_on_proximity_sensor_summary">Не закривайте верхню частину телефону</string>
+    <string name="screen_on_proximity_sensor_summary">Не закривайте верхню частину пристрою</string>
     <string name="screen_on_proximity_sensor_hint">Примусовий вихід: натисніть кнопки \"Назад\"+\"Гучність +\"</string>
     <string name="first_back_long_press_message">"Ви хочете, щоб при тривалому натисканні клавіші \"Назад\" закривалося поточний застосунок і його служби? 
 Включіть цю можливість через налаштування клавіш."</string>

@@ -110,7 +110,7 @@
     <string name="stable_build">стабільна збірка</string>
     <string name="unstable_build">нестабільна збірка</string>
     <string name="particular_build">особлива збірка</string>
-    <string name="about_device">Про телефон</string>
+    <string name="about_device">Про пристрій</string>
     <string name="emegency_build">Збірка:</string>
     <string name="loading">Завантаження…</string>
     <string name="share_update">Поділитися</string>
@@ -194,7 +194,7 @@
     <string name="dialog_no">Немає</string>
     <string name="dialog_ok">ОК</string>
     <string name="downloading_description">Завантаження…</string>
-    <string name="apply_upload_info_message">Натисніть \"Оновити\". Телефон буде автоматично перезавантажений для застосування оновлень</string>
+    <string name="apply_upload_info_message">Натисніть \"Оновити\". Пристрій буде автоматично перезавантажений для застосування оновлень.</string>
     <string name="apply_now_button_text">Оновити</string>
     <string name="apply_later_button_text">Скасування</string>
     <string name="reboot_to_new_system">Перезавантаження в нову систему</string>
@@ -260,7 +260,7 @@
     <string name="send_install_log">Відправити журнал</string>
     <string name="send_install_log_error">Не вдалося відправити журнал помилок</string>
     <string name="sign_in_add_account">Активуйте Mi акаунт</string>
-    <string name="sign_in_add_account_helper">У вашому телефоні немає акаунту MIUI, будь ласка додайте його</string>
+    <string name="sign_in_add_account_helper">Увійдіть в Mi акаунт</string>
     <string name="sign_in_info">"Рейтинг оновлення: %1$s%%
 %2$s
 версія: %3$s"</string>

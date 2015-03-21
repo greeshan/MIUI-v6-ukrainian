@@ -9,9 +9,9 @@
     <string name="sdcard_unmounted">Накопичувач не підключений</string>
     <string name="sdcard_no_enough_space">"Недостатньо пам'яті"</string>
     <string name="retry">Повтор</string>
-    <string name="cloud_app_backup_title">Бекап додатків</string>
+    <string name="cloud_app_backup_title">Бекап застосунків</string>
     <string name="cloud_app_mine">Програми</string>
-    <string name="cloud_app_backup_summary">Автоматичне створення бекапу даних додатків, коли телефон заряджається і підключений до Wi-Fi.</string>
+    <string name="cloud_app_backup_summary">Автоматичне створення бекапу даних застосунків, коли телефон заряджається і підключений до Wi-Fi.</string>
     <string name="cloud_app_function_summary">Якщо ви створите бекап в Mi Cloud, то зможете відновити його на будь-якому пристрої.</string>
     <string name="cloud_app_restore_action_bar_title">%1$s: бекап створений</string>
     <string name="cloud_app_current_device">Поточний пристрій</string>

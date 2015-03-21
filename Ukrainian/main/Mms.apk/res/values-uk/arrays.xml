@@ -55,6 +55,18 @@
         <item>Через MMS</item>
         <item>Через хмарне повідомлення</item>
     </string-array>
+    <string-array name="entries_sms_validity_period">
+        <item>Не встановлено</item>
+        <item>1 годину</item>
+        <item>6 годин</item>
+        <item>12 годин</item>
+        <item>1 день</item>
+        <item>Без обмежень</item>
+    </string-array>
+    <string-array name="entries_mms_validity_period">
+        <item>Без обмежень</item>
+        <item>Два дні</item>
+    </string-array>
     <string-array name="select_dialog_items">
         <item>1 сек.</item>
         <item>2 сек.</item>

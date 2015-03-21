@@ -40,6 +40,14 @@
         <item quantity="other">Голосові повідомлення: %1$d</item>
         <item quantity="one">Голосова пошта</item>
     </plurals>
+    <plurals name="export_sim_contacts_dialog_message">
+        <item quantity="other">SIM карта може зберігати контактів: %d</item>
+        <item quantity="one">SIM карта может зберігати контактів: %d</item>
+    </plurals>
+    <plurals name="confirm_delete_sim_entry_miui">
+        <item quantity="other">Видалити контакти з SIM карти? (%d)</item>
+        <item quantity="one">Видалити контакти з SIM карти? (%d)</item>
+    </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">Обрано: %1$d</item>
         <item quantity="one">Обрано: %1$d</item>
@@ -76,6 +84,14 @@
         <item quantity="other">Додано контактів: %1$d</item>
         <item quantity="one">Додано контактів: %1$d</item>
     </plurals>
+    <plurals name="export_sim_contact_finish_success">
+        <item quantity="other">Скопійовано контактів: %d</item>
+        <item quantity="one">Скопійовано контактів: %d</item>
+    </plurals>
+    <plurals name="btn_delete_multi_contacts">
+        <item quantity="other">Видалити контакти (%d)</item>
+        <item quantity="one">Видалити контакт</item>
+    </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">Обрано: %1$d</item>
         <item quantity="one">Обрано: %1$d</item>
@@ -84,9 +100,17 @@
         <item quantity="other">Імпортовано контактів: %1$d</item>
         <item quantity="one">Імпортовано контактів: %1$d</item>
     </plurals>
+    <plurals name="batch_delete_msg">
+        <item quantity="other">Видалити контакти? (%d)</item>
+        <item quantity="one">Видалити контакти? (%d)</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">Обрано: %1$d</item>
         <item quantity="zero">Обрано: %1$d</item>
         <item quantity="one">Обрано: %1$d</item>
+    </plurals>
+    <plurals name="callNoAnswerTimeFormat">
+        <item quantity="other">| Гудков: %d</item>
+        <item quantity="one">| Гудков: %d</item>
     </plurals>
 </resources>

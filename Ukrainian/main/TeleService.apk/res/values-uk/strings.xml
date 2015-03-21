@@ -2,13 +2,13 @@
 <resources>
     <string name="preferred_network_type_pref_entries_4g_preferred">Переважно 4G</string>
     <string name="preferred_network_type_pref_entries_3g_preferred">Переважно 3G</string>
-    <string name="phoneAppLabel">Телефон</string>
+    <string name="phoneAppLabel">Пристрій</string>
     <string name="emergencyDialerIconLabel">Номера екстрених викликів</string>
-    <string name="phoneIconLabel">Телефон</string>
+    <string name="phoneIconLabel">Пристрій</string>
     <string name="fdnListLabel">Фіксовані номери</string>
     <string name="unknown">Невідомий абонент</string>
     <string name="private_num">Схований номер</string>
-    <string name="payphone">Телефон-Автомат</string>
+    <string name="payphone">Пристрій-Автомат</string>
     <string name="mmiStarted">Виконується запит</string>
     <string name="ussdRunning">Виконується USSD запит...</string>
     <string name="cancel">Скасування</string>
@@ -133,7 +133,7 @@
     <string name="roaming">Інтернет роумінг</string>
     <string name="roaming_enable">Підключатися до служб передачі даних у роумінзі</string>
     <string name="roaming_disable">Підключатися до служб передачі даних у роумінзі</string>
-    <string name="roaming_reenable_message">Передача даних припинена. Телефон перебуває за межами домашньої мережі</string>
+    <string name="roaming_reenable_message">Передача даних припинена. Пристрій перебуває за межами домашньої мережі</string>
     <string name="roaming_warning">Дозволити інтернет роумінг? Можливі високі витрати за використання роумінгу</string>
     <string name="always_enable_mms">Завжди приймати MMS</string>
     <string name="always_enable_mms_summary">Приймати MMS, навіть коли мобільний інтернет вимкнений</string>
@@ -405,10 +405,10 @@ sim карта буде очищена при невдалій спробі вв
     <string name="managed_roaming_dialog_content">Знайдена мережа з обмеженим обслуговуванням. Виконати пошук служб?</string>
     <string name="managed_roaming_dialog_ok_button">ОК</string>
     <string name="managed_roaming_dialog_cancel_button">Скасування</string>
-    <string name="ota_title_activate">Активувати телефон</string>
-    <string name="ota_touch_activate">"Необхідний спеціальний виклик для активації служби телефону.
+    <string name="ota_title_activate">Активувати пристрій</string>
+    <string name="ota_touch_activate">"Необхідний спеціальний виклик для активації служби пристрою.
 
-після натискання кнопки \"Активувати\" прослухайте інструкцію з активації телефону"</string>
+Після натискання кнопки \"Активувати\" прослухайте інструкцію з активації пристрою"</string>
     <string name="ota_hfa_activation_title">Активація…</string>
     <string name="ota_hfa_activation_dialog_message">"Активація служби мобільних даних. 
 
@@ -417,21 +417,21 @@ sim карта буде очищена при невдалій спробі вв
     <string name="ota_skip_activation_dialog_message">Якщо ви пропустите активацію, ви не зможете робити виклики та підключатися до мобільних мереж передачі даних (хоча ви зможете підключатися до мереж Wi-Fi). Поки ви не активуєте свій телефон, запит активації буде відображатися при кожному його включенні</string>
     <string name="ota_skip_activation_dialog_skip_label">Пропустити</string>
     <string name="ota_activate">Активувати</string>
-    <string name="ota_title_activate_success">Телефон активований!</string>
+    <string name="ota_title_activate_success">Пристрій активовано</string>
     <string name="ota_title_problem_with_activation">Неполадки при активації</string>
     <string name="ota_listen">Дотримуйтесь голосових інструкцій, поки вам не повідомлять, що активація завершена</string>
     <string name="ota_speaker">Динамік</string>
-    <string name="ota_progress">Дочекайтеся завершення програмування телефону</string>
+    <string name="ota_progress">Дочекайтеся завершення оновлення телефону</string>
     <string name="ota_failure">Збій при програмуванні</string>
-    <string name="ota_successful">Ваш телефон активований. Включення служби може зайняти до 15 хвилин</string>
-    <string name="ota_unsuccessful">"Ваш телефон не активований.
+    <string name="ota_successful">Ваш пристрій активований. Включення служби може зайняти до 15 хвилин</string>
+    <string name="ota_unsuccessful">"Ваш пристрій не активовано.
 Можливо, вам слід знайти зону з більш високим рівнем сигналу (у вікна або на вулиці).
 
 Повторіть спробу або звяжіться зі службою підтримки."</string>
     <string name="ota_call_end">Назад</string>
     <string name="ota_try_again">Повторіть спробу</string>
     <string name="ota_next">Далі</string>
-    <string name="phone_entered_ecm_text">Телефон переведений у режим екстрених зворотніх викликів</string>
+    <string name="phone_entered_ecm_text">Пристрій переведений у режим екстрених зворотніх викликів</string>
     <string name="phone_in_ecm_notification_title">Режим екстрених зворотних викликів</string>
     <string name="phone_in_ecm_call_notification_text">Передача даних вимкнена</string>
     <string name="alert_dialog_in_ecm_call">Обрана дія неможлива в режимі екстреного звязку</string>
@@ -700,14 +700,14 @@ sim карта буде очищена при невдалій спробі вв
     <string name="auto_answer_summary_not_enabled">Вимкнене</string>
     <string name="auto_answer_summary_delay">" (затримка: %s сек.)"</string>
     <string name="answer_state_setting_title">Вхідні виклики</string>
-    <string name="answer_state_setting_summary">Налаштування датчиків телефону при вхідному виклику</string>
+    <string name="answer_state_setting_summary">Налаштування датчиків пристрою при вхідному виклику</string>
     <string name="turnover_mute_title">Переверніть для вимикання звуку</string>
     <string name="turnover_mute_summary">Переверніть телефон при вхідному виклику для вимикання мелодії виклику. Функція працює, коли телефон перебуває в горизонтальному положенні</string>
-    <string name="handon_ringer_summary">Телефон не буде вібрувати під час розмови</string>
+    <string name="handon_ringer_summary">Пристрій не буде вібрувати під час розмови</string>
     <string name="handon_ringer_title">Не вібрувати</string>
     <string name="enable_proximity_summary">Використовувати датчик наближення для вимкнення екрану під час розмови</string>
     <string name="enable_proximity_title">Датчик наближення</string>
-    <string name="pocket_mode_summary">Телефон заблокується автоматично при переміщенні в кишені</string>
+    <string name="pocket_mode_summary">Пристрій заблокується автоматично при переміщенні в кишені</string>
     <string name="pocket_mode_title">Блокування в кишені</string>
     <string name="antispam_notification_title">Невідомий номер</string>
     <string name="enable_antispam_strange_title">Невідомий виклик без звуку</string>
@@ -739,7 +739,7 @@ sim карта буде очищена при невдалій спробі вв
     <string name="messageCFNRy">Номер для переадресації при відсутності відповіді</string>
     <string name="sum_cfnry_enabled">Переадресація на номер: {0}</string>
     <string name="sum_cfnry_disabled">Вимкнено</string>
-    <string name="disable_cfnry_forbidden">Ваш оператор не підтримує вимкнення переадресації дзвінків, якщо немає відповіді</string>
+    <string name="disable_cfnry_forbidden">Ваш оператор не підтримує вимкнення переадресації дзвінків, якщо немає відповіді.</string>
     <string name="labelCFNRc">Якщо недоступний</string>
     <string name="messageCFNRc">Номер для переадресації, якщо абонент недоступний</string>
     <string name="sum_cfnrc_enabled">Переадресація на номер: {0}</string>
@@ -840,6 +840,7 @@ sim карта буде очищена при невдалій спробі вв
     <string name="msim_select_default_time_left">(%d сек.)</string>
     <string name="msim_switch_data_conn_toast">Перевірте доступ до мережі. Тип мережі змінений на 4G.</string>
     <string name="msim_switch_data_conn_toast_for_h2xct">SIM карта 2 подтримує тільки мережі GSM. Тип мережі данної SIM карти буде змінено на 2G.</string>
+    <string name="msim_has_been_disabled">(відключено)</string>
     <string name="select_voice_call_sim">Виберіть SIM карту</string>
     <string name="general_setting">Загальні</string>
     <string name="call_record_setting">Запис викликів</string>
@@ -933,7 +934,7 @@ sim карта буде очищена при невдалій спробі вв
     <string name="onscreenManageConferenceText">Управління конференцією</string>
     <string name="onscreenMergeCallsText">"Об'єднання викликів"</string>
     <string name="onscreenMuteText">Вимкнути звук</string>
-    <string name="onscreenShowDialpadText">Телефон</string>
+    <string name="onscreenShowDialpadText">Пристрій</string>
     <string name="onscreenSwapCallsText">Обмін</string>
     <string name="onscreenVideoCallText">Відеодзвінок</string>
     <string name="pause_prompt_no">Скасувати</string>

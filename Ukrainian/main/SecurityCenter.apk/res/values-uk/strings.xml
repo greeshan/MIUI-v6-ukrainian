@@ -122,9 +122,9 @@
     <string name="power_dialog_delete_dialog_title">Видалити режим</string>
     <string name="power_dialog_delete_dialog_delete">Видалити обраний режим користувача?</string>
     <string name="power_dialog_delete_dialog_cannot_delete_default">Неможливо видалити активний режим користувача</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_low_battery">Телефон налаштований на перемикання до цього режиму, коли батарея розряджена. Необхідно змінити параметри перед видаленням.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_battery">Пристрій налаштований на перемикання до цього режиму, коли батарея розряджена. Необхідно змінити параметри перед видаленням.</string>
     <string name="power_dialog_delete_dialog_cannot_delete_is_my_mode">Неможливо видалити використовуваний режим</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_on_time">Телефон налаштований на перемикання до цього режиму за розкладом. Необхідно змінити параметри перед видаленням.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_on_time">Пристрій налаштований на перемикання до цього режиму за розкладом. Необхідно змінити параметри перед видаленням.</string>
     <string name="power_save_choose_mode">Режим</string>
     <string name="power_save_low_battery_title">Автоперемикання</string>
     <string name="power_save_low_battery_auto_save_title">Автоперемикання</string>
@@ -162,8 +162,8 @@
     <string name="power_new_choose_mode">Вибір режиму</string>
     <string name="power_save_low_battery_option_recovery_title">Якщо батарея заряджена</string>
     <string name="power_save_on_time_option_recovery_title">Режим по закінченню періоду</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_low_out_battery">Телефон налаштований на перемикання до цього режиму, коли батарея заряджається. Необхідно змінити параметри перед видаленням.</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">Телефон налаштований на перемикання до цього режиму за розкладом. Необхідно змінити параметри перед видаленням.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_out_battery">Пристрій налаштований на перемикання до цього режиму, коли батарея заряджається. Необхідно змінити параметри перед видаленням.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">Пристрій налаштований на перемикання до цього режиму за розкладом. Необхідно змінити параметри перед видаленням.</string>
     <string name="power_mode_chooser_button_text">Застосувати</string>
     <string name="power_20s_enter_mode">%1$ds перемкнутися в режим %2$s</string>
     <string name="power_notify_lowbattery">заряд менш %1$d%%</string>
@@ -206,7 +206,7 @@
     <string name="usage_type_cpu_foreground">ЦП – активний режим</string>
     <string name="usage_type_wake_lock">Активний режим</string>
     <string name="usage_type_wifi_running">Wi-Fi</string>
-    <string name="usage_type_phone">Телефон</string>
+    <string name="usage_type_phone">Пристрій</string>
     <string name="usage_type_data_wifi_send">Відправлені дані по Wi-Fi</string>
     <string name="usage_type_data_wifi_recv">Прийняті дані по Wi-Fi</string>
     <string name="usage_type_audio">Аудіо</string>
@@ -337,7 +337,7 @@
     <string name="hints_scan_result_safe">Система захищена</string>
     <string name="hints_scan_result_risk">Знайдені загрози</string>
     <string name="hints_scan_result_virus">Знайдені віруси</string>
-    <string name="hints_virus_scan_result_descx">Цей застосунок являє серйозну загрозу безпеки вашого телефону</string>
+    <string name="hints_virus_scan_result_descx">Цей застосунок являє серйозну загрозу безпеки вашого пристрою</string>
     <string name="hints_unknown_virus_name">Невідомо</string>
     <string name="descx_quick_scan_done">Сканування завершене</string>
     <string name="descx_quick_scan_cancel">Сканування скасоване</string>

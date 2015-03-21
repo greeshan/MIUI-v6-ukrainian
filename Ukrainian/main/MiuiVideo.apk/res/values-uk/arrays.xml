@@ -22,7 +22,7 @@
     </string-array>
     <string-array name="home_tabs">
         <item>Онлайн</item>
-        <item>Телефон</item>
+        <item>Локально</item>
     </string-array>
     <string-array name="series_detail_tabs">
         <item>Епізод</item>

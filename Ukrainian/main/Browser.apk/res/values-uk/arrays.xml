@@ -1,54 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="menu_theme_setting">
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-    </string-array>
-    <string-array name="pref_homepage_choices">
-        <item>Головна сторінка</item>
-        <item>Встановити свою</item>
-    </string-array>
-    <string-array name="pref_ua_choices">
-        <item>Android</item>
-        <item>"Комп'ютер"</item>
-        <item>iphone</item>
-        <item>ipad</item>
-    </string-array>
-    <string-array name="pref_volume_key_choices">
-        <item>Прокручування сторінки</item>
-        <item>Перемикання вкладок</item>
-    </string-array>
-    <string-array name="pref_fling_on_border_choices">
-        <item>Перемикання сторінок</item>
-        <item>Перемикання вкладок</item>
-    </string-array>
-    <string-array name="pref_default_zoom_choices">
-        <item>Маленький</item>
-        <item>Середній</item>
-        <item>Великий</item>
-    </string-array>
-    <string-array name="pref_images_preload_choices">
-        <item>Ніколи</item>
-        <item>Тільки по Wi-Fi</item>
-        <item>Завжди</item>
-    </string-array>
-    <string-array name="pref_text_zoom_choices">
-        <item>Дрібний</item>
-        <item>Нормальний</item>
-        <item>Середній</item>
-        <item>Великий</item>
-        <item>Величезний</item>
-    </string-array>
-    <string-array name="pre_webapp_text_sizes">
-        <item>Великий</item>
-        <item>Середній</item>
-        <item>Нормальний</item>
-        <item>Дрібний</item>
-    </string-array>
     <string-array name="google">
         <item>Google</item>
         <item>google.com</item>
@@ -80,6 +31,14 @@
         <item>google</item>
         <item>dianping</item>
         <item>bing</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
     </string-array>
     <string-array name="dianping_in_list">
         <item>search_dianping</item>
@@ -122,6 +81,47 @@
         <item>Ніколи</item>
         <item>Тільки по Wi-Fi</item>
         <item>Завжди</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Головна сторінка</item>
+        <item>Встановити свою</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>"Комп'ютер"</item>
+        <item>iphone</item>
+        <item>ipad</item>
+    </string-array>
+    <string-array name="pref_volume_key_choices">
+        <item>Прокручування сторінки</item>
+        <item>Перемикання вкладок</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_choices">
+        <item>Перемикання сторінок</item>
+        <item>Перемикання вкладок</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Маленький</item>
+        <item>Середній</item>
+        <item>Великий</item>
+    </string-array>
+    <string-array name="pref_images_preload_choices">
+        <item>Ніколи</item>
+        <item>Тільки по Wi-Fi</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>Дрібний</item>
+        <item>Нормальний</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Величезний</item>
+    </string-array>
+    <string-array name="pre_webapp_text_sizes">
+        <item>Великий</item>
+        <item>Середній</item>
+        <item>Нормальний</item>
+        <item>Дрібний</item>
     </string-array>
     <string-array name="search_engines_rcn">
         <item>baidu</item>

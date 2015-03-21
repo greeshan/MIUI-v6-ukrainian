@@ -277,7 +277,7 @@
     <string name="category_type_meida">Медіа</string>
     <string name="category_type_document">Документи</string>
     <string name="category_type_other">Інше</string>
-    <string name="phone">Телефон</string>
+    <string name="phone">Пристрій</string>
     <string name="category">Категорії</string>
     <string name="my_app">Дані застосунків</string>
     <string name="my_bak">Бекап</string>
@@ -299,10 +299,29 @@
     <string name="share_box_receive">Прийняті</string>
     <string name="file_not_exist">Файл не існує</string>
     <string name="open_file_failed">Не вдалося відкрити файл</string>
+    <string name="action_mode_deselect_all">Зняти вибір</string>
+    <string name="action_mode_select_all">Вибрати все</string>
     <string name="file_already_downlaoded">Файл збережений в \"%1$s\"</string>
     <string name="copy_file_to_kuaipan">Копіювати в Kuaipan</string>
     <string name="downloading_in_3g">Завантаження по мережі 3G…</string>
     <string name="operate_confirm_in_3g">Завантажити цей файл по мережі 3G?</string>
+    <string name="files">Файли</string>
+    <string name="get_cloud_space">Додати 500 Гб</string>
+    <string name="kp_category_all">Категорії</string>
+    <string name="kp_category_doc">Word</string>
+    <string name="kp_category_excel">Excel</string>
+    <string name="kp_category_ppt">PowerPoint</string>
+    <string name="kp_category_pdf">PDF</string>
+    <string name="kp_category_txt">Текст</string>
+    <string name="no_display_file">Не вдається відобразити %1$s</string>
+    <string name="delete_selected_tasks">Видалити вибране?</string>
+    <string name="kuaipan_data_formater_with_year">d MMMM yyyy</string>
+    <string name="kuaipan_data_formater_without_year">d MMMM</string>
+    <string name="kuaipan_photo_locate">%1$s</string>
+    <string name="kuaipan_root_fooder">Додому</string>
+    <string name="kuaipan_cloud_photo">Фото Kuaipan</string>
+    <string name="kuaipan_create_shortcut_success">Ярлик створений</string>
+    <string name="kuaipan_delete_success">Фото видалено</string>
     <string name="system_alert">Нагадати</string>
     <string name="network_connect_confirm_des">Дозволити застосунку доступ до інтернету?</string>
     <string name="operation_agree">ОК</string>
@@ -313,7 +332,7 @@
     <string name="local_cache_size">Розмір локального кешу: %s</string>
     <string name="query_bind_state">Запит стану…</string>
     <string name="tab_networkdisk">Kuaipan</string>
-    <string name="tab_phone">Телефон</string>
+    <string name="tab_phone">Пристрій</string>
     <string name="tab_sys_size">"Загальна пам'ять"</string>
     <string name="trans_task_delete_confirm_message">"Видалити обрані завантаження? 
 

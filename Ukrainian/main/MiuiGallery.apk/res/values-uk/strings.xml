@@ -3,7 +3,6 @@
     <string name="photoeditor_name">Фотостудія</string>
     <string name="loading_failure">Не вдалося завантажити зображення</string>
     <string name="saving_failure">Не вдалося зберегти фото</string>
-    <string name="photo_saved">Світлина збережена в альбомі \"%s\"</string>
     <string name="edited_photo_bucket_name">Змінені</string>
     <string name="save_photo">Зберегти зміни?</string>
     <string name="yes">Так</string>
@@ -49,9 +48,17 @@
     <string name="frame_black">Чорний</string>
     <string name="frame_semicircle">Півколо</string>
     <string name="frame_movie">Фільм</string>
-    <string name="photo_paint_adjust">Регулювання</string>
-    <string name="photo_paint_effect">Ефект</string>
+    <string name="adjust">Поліпшення</string>
+    <string name="effect">Фільтри</string>
     <string name="original">Вихідний</string>
+    <string name="early_bird">Осінь</string>
+    <string name="brannan">Ранок</string>
+    <string name="cool">Холод</string>
+    <string name="rise">Зростання</string>
+    <string name="cool_portrait">Свіжість</string>
+    <string name="old">Старе</string>
+    <string name="camera_black_white">Моно</string>
+    <string name="black_white">Чорно-біле</string>
     <string name="app_name">Галерея</string>
     <string name="loading">Завантаження…</string>
     <string name="no_thumbnail">Немає зображення для попереднього перегляду</string>
@@ -89,8 +96,8 @@
 файлів: %1$d 
 тек: %2$d"</string>
     <string name="confirm_delete_init_title">Попередження</string>
-    <string name="confirm_delete_init_message">"Файли будуть видалені з пам'яті телефону та Mi Cloud. Якщо ви прагнете видалити їх тільки з пам'яті телефону, то видаліть через локальні альбоми"</string>
-    <string name="confirm_delete_has_cloud_local_image_video">"Видалити обрані файли з пам'яті телефону й Mi Cloud? (%s)"</string>
+    <string name="confirm_delete_init_message">"Файли будуть видалені з пам'яті пристрою та Mi Cloud. Якщо ви прагнете видалити їх тільки з пам'яті пристрою, то видаліть через локальні альбоми"</string>
+    <string name="confirm_delete_has_cloud_local_image_video">"Видалити обрані файли з пам'яті пристрою та Mi Cloud? (%s)"</string>
     <string name="confirm_delete_has_cloud_image_video">Видалити обрані файли з Mi Cloud? (%s)</string>
     <string name="confirm_delete_has_local_image_video">Видалити обрані файли? (%s)</string>
     <string name="cancel">Скасування</string>
@@ -246,7 +253,7 @@
     <string name="pick_too_much_tips">Обране занадто багато фото. Максимум: %d.</string>
     <string name="sd_not_available">SD карта відключена або недоступна</string>
     <string name="internal_sd_card">"Внутрішня пам'ять"</string>
-    <string name="internal_sd_card_hm">"Пам'ять телефону"</string>
+    <string name="internal_sd_card_hm">"Пам'ять пристрою"</string>
     <string name="external_sd_card">SD карта</string>
     <string name="external_usb_device">USB накопичувач</string>
     <string name="external_usb_device_hm">USB накопичувач</string>
@@ -268,6 +275,7 @@
     <string name="operation_add_picture">Додати фото</string>
     <string name="operation_add_secret">В секрет</string>
     <string name="operation_remove_secret">З секрету</string>
+    <string name="operation_remove_from_face_album">Видалити обкладинку</string>
     <string name="directory_info_divider">"  |  "</string>
     <string name="global_setting">Налаштування</string>
     <string name="no_storage_disable_cloud_albums">Хмарні альбоми недоступні</string>
@@ -490,7 +498,7 @@
     <string name="secret_album_display_name">Секретний альбом</string>
     <string name="miui_capture_screen_folder_display_name">Скріншоти</string>
     <string name="internal_camera_folder_display_name">Камера</string>
-    <string name="internal_miui_capture_screen_folder_display_name">"Скріншоти в пам'яті телефону"</string>
+    <string name="internal_miui_capture_screen_folder_display_name">"Скріншоти в пам'яті пристрою"</string>
     <string name="miliao_painting_folder_display_name">Малюнки Mitalk</string>
     <string name="miliao_saved_folder_display_name">Зображення Mitalk</string>
     <string name="mishop_saved_folder_display_name">Зображення Mi-Маркету</string>
@@ -529,6 +537,7 @@
     <string name="home_page_tab_photo">Все</string>
     <string name="home_page_tab_cloud">Хмарні</string>
     <string name="home_page_tab_local">Локальні</string>
+    <string name="home_page_tab_face">Обкладинка</string>
     <string name="error_title">Помилка синхронізації</string>
     <string name="error_unauthorized">Помилка синхронізації: занадто багато спроб авторизації</string>
     <string name="error_forbidden">Помилка акаунта, синхронізація відключена</string>
@@ -554,12 +563,14 @@
     <string name="free">Вільно</string>
     <string name="square">Площа</string>
     <string name="original_scale">Початковий розмір</string>
+    <string name="photo_save_succeed">Успішно збережено</string>
     <string name="impunity_declaration_title">Дозволити застосунку доступ до інтернету?</string>
     <string name="impunity_declaration">При використанні хмарних альбомів потрібен доступ до інтернету</string>
     <string name="impunity_declaration_ignore">"Запам'ятати"</string>
     <string name="impunity_declaration_positive_text">Продовжити</string>
     <string name="impunity_declaration_settings">Запитувати доступ до інтернету</string>
     <string name="impunity_declaration_summary">Запит доступу до інтернету при кожному запуску застосунка</string>
+    <string name="face_album">Обкладинка альбому</string>
     <string name="auto_upload_title">Автозавантаження альбомів</string>
     <string name="select_auto_upload_albums">Виберіть альбоми для завантаження в Mi Cloud</string>
     <string name="enable">Увімк.</string>
@@ -570,13 +581,34 @@
     <string name="auto_upload_guide_msssage">" "<Data> Автоматично завантажувати фото з інших застосунків у Mi Cloud. Функція доступна у &lt;font color=#323232>&lt;b>Налаштування галереї > Хмарні альбоми > Автозавантаження альбомів&lt;/b>&lt;/font>. </Data>" "</string>
     <string name="not_now">Скасування</string>
     <string name="go_setting">ОК</string>
+    <string name="face_albumset_use_tip">Допомагає знайти гарні обкладинки, що робить його простим для перегляду і управління фото.</string>
+    <string name="face_albumset_detecting_tip">"Виявлення обкладинок…
+Обкладинка альбому скоро буде доступний"</string>
+    <string name="face_albumset_empty">Обкладинка не знайдено. Спробуйте використовувати більше фото.</string>
+    <string name="start_to_use_face_albumset">Почати використовувати обкладинок альбомів</string>
+    <string name="face_album_not_named">Без назви</string>
+    <string name="rename_face_album">"Змінити ім'я"</string>
+    <string name="rename_fail_msg">"Не вдалося змінити ім'я"</string>
+    <string name="merge_album_positive_button_text">ОК</string>
+    <string name="confirm_merge_face_albums">" "<Data>" Об'єднати цей альбом з альбомом &lt;font color=#323232>&lt;b>%s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="create_new_face">Нова обкладинка</string>
+    <string name="preparing_data">Підготовка даних…</string>
+    <string name="ignore_face">Ігнорувати цю обкладинку</string>
+    <string name="who_is_this">Хто це?</string>
+    <string name="view_face_album">Показати альбом</string>
+    <string name="name_wrong">"Неправильне ім'я %s"</string>
+    <string name="face_album_rename_hint">"Введіть ім'я"</string>
+    <string name="face_move_dialog_title">Виберіть обкладинку альбому</string>
     <string name="paint_crop_tips">Для отримання кращого ефекту спробуйте помістити необхідну частину фото в сітку</string>
+    <string name="photo_paint_adjust">Регулювання</string>
+    <string name="photo_paint_effect">Ефект</string>
+    <string name="highlight2">Яскравість</string>
     <string name="action_fail_unknown_error">Відбулася невідома помилка</string>
     <string name="add_to_cloud_fail_too_many_items">Обране занадто багато елементів</string>
     <string name="cloud_share_guide_message">Ви можете ділитися своїми альбомами, переглядати альбоми друзів, а також додавати фото в альбом разом!</string>
     <string name="cloud_share_guide_title">Тепер можна обмінюватися албомами!</string>
     <string name="cloud_tab_locations">Місце розташування</string>
-    <string name="confirm_delete_home_merge_item">"Видалити %s фото з пам'яті телефону та Mi Cloud?"</string>
+    <string name="confirm_delete_home_merge_item">"Видалити %s фото з пам'яті пристрою та Mi Cloud?"</string>
     <string name="confirm_delete_pictures">Фото: %s</string>
     <string name="confirm_delete_this_picture">Видалити обране фото?</string>
     <string name="confirm_delete_this_video">Видалити обране відео?</string>
@@ -585,6 +617,7 @@
     <string name="how_many_sub_folders">Тек: %d</string>
     <string name="how_many_videos">Відео: %d</string>
     <string name="message_no_delete_access_with_count">Немає доступу до цих файлів (%d)</string>
+    <string name="photo_saved">Світлина збережена в альбомі \"%s\"</string>
     <string name="screensaver_category">Заставка</string>
     <string name="screensaver_path">"Альбом заставки: "</string>
     <string name="screensaver_path_not_set">не заданий</string>

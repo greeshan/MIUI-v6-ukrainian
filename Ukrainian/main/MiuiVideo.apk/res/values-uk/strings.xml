@@ -381,8 +381,6 @@
     <string name="subtitle_prefix">"Версія: "</string>
     <string name="hot_recommend">Популярні</string>
     <string name="app_recommend">Рекомендовані</string>
-    <string name="menu_item_disable_audio_enhance">Покращення звуку</string>
-    <string name="japank">Японське ТВ</string>
     <string name="actor_colon">"Актори: "</string>
     <string name="all_comment">Всі відгуки</string>
     <string name="area_colon">"Країна: "</string>
@@ -415,6 +413,7 @@
     <string name="local_media_empty_hint">Немає відео</string>
     <string name="manage">Вибір</string>
     <string name="manage_offline_media">Керування завантаженнями</string>
+    <string name="menu_item_disable_audio_enhance">Покращення звуку</string>
     <string name="my_video">Локально</string>
     <string name="offline_media_empty_hint">Немає відео</string>
     <string name="offline_no_wifi">Ви не підключені до мережі Wi-Fi. Для завантаження включіть в налаштуваннях функцію \"Мобільний інтернет\".</string>
@@ -452,4 +451,5 @@
     <string name="search_result_recommend_hint">Рекомендовані</string>
     <string name="search_result_recommend_empty">Немає результатів</string>
     <string name="offline_video">Локальні</string>
+    <string name="japank">Японське ТВ</string>
 </resources>

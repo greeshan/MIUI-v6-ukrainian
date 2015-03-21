@@ -13,6 +13,7 @@
     <string name="lock_screen_failed_message">Не вдалося застосувати</string>
     <string name="lock_screen_success_message">Встановлено на екран блокування</string>
     <string name="wallpaper_failed_message">Не вдалося встановити шпалери</string>
+    <string name="image_too_small_message">Зображення занадто маленьке</string>
     <string name="wallpaper_success_message">Шпалери встановлені</string>
     <string name="is_setting_wallpaper_toast">Встановлення шпалер…</string>
     <string name="current_wallpaper">Вибрані</string>

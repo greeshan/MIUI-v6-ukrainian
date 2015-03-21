@@ -452,6 +452,8 @@ sms (%1$d), MMS (%2$d)."</string>
     <string name="title_collapse_sp_messages">Група сервісних повідомлень</string>
     <string name="pref_collapse_sp_messages_summary">Групувати сервісні повідомлення в одну категорію</string>
     <string name="sp_conversation_title">Сповіщення</string>
+    <string name="title_show_sms_template">Копіювати перевірочні коди</string>
+    <string name="pref_show_sms_template_summary">Автоматично копіювати і вставляти перевірочні коди з SMS</string>
     <string name="sp_mark_as_read_title">Помітити як прочитані</string>
     <string name="sp_mark_as_read">Позначити всі повідомлення як прочитані?</string>
     <string name="sp_mark_as_read_progress">Обробка…</string>
@@ -538,6 +540,7 @@ sms (%1$d), MMS (%2$d)."</string>
     <string name="snippet_picture">[фото]</string>
     <string name="audio_download_failed">Не вдалося завантажити запис</string>
     <string name="hms_uri_param_err">ID запиту URL Mipub не може бути порожнім</string>
+    <string name="block_messaging_entry_title">Блокування SMS</string>
     <string name="add_bookmark">Вибрані</string>
     <string name="mx_activate_int_popup_msg">Обмін хмарними повідомленнями дозволяє користувачам MIUI спілкуватися між собою без використання коштів</string>
     <string name="mx_activate_popup_msg">Хмарні повідомлення дозволяють користувачам MIUI обмінюватися повідомленнями безкоштовно через інтернет</string>

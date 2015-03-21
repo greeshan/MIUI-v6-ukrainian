@@ -14,7 +14,7 @@
     <string name="perm_privacy_app_launch">Відкрити</string>
     <string name="perm_privacy_app_installed">Встановлення завершена!</string>
     <string name="perm_sysopt_boost_auto_start">Дозволити автозапуск</string>
-    <string name="perm_sysopt_boost_auto_start_summary">Дозволити застосунку автозапуск при завантаженні телефону</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Дозволити застосунку автозапуск при завантаженні пристрою</string>
     <string name="perm_privacy_app_trust">Довіряти застосунку</string>
     <string name="perm_privacy_app_trust_summary">Система не буде стежити за цим застосунком</string>
     <string name="perm_action_accept">Дозволити</string>
@@ -31,7 +31,7 @@
     <string name="uninstall_confirm_question">Видалити цей застосунок?</string>
     <string name="uninstall_failed_retained_app_msg">Застосунок, змінений оператором, не може бути видаленим</string>
     <string name="install_failed_system_incompatible">Цей застосунок не сумісний із системою MIUI</string>
-    <string name="permission_group_title_charges_related">Телефон</string>
+    <string name="permission_group_title_charges_related">Пристрій</string>
     <string name="permission_group_title_privacy_related">Конфіденційність</string>
     <string name="permission_group_title_media_related">Медіа</string>
     <string name="permission_group_title_settings_related">Налаштування</string>
@@ -58,14 +58,14 @@
     <string name="install_failed_invalid_apk">Файл ушкоджений</string>
     <string name="install_failed_inconsistent_certificates">Підпис оновлення не збігається з підписом встановленого застосунка. Перед встановленням видаліть стару версію</string>
     <string name="install_failed_older_sdk">Цей пакет підтримується тільки в системі Android більш пізніх версій</string>
-    <string name="install_failed_cpu_abi_incompatible">Процесор телефону не підтримує цей застосунок</string>
+    <string name="install_failed_cpu_abi_incompatible">Процесор пристрою не підтримує цей застосунок</string>
     <string name="install_failed_file_not_found">Зазначений пакет вилучений до завершення встановлення</string>
     <string name="install_failed_verify_failed">Пакет не перевірений і не може бути встановлений</string>
     <string name="install_failed_verify_timeout">Не вдалося перевірити пакет. Спробуйте встановити його пізніше.</string>
     <string name="install_failed_msg">Не вдалося встановити застосунок \"%1$s\"</string>
     <string name="launch">Відкрити</string>
     <string name="unknown_apps_dlg_title">Встановлення заблоковане</string>
-    <string name="unknown_apps_dlg_text">Для забезпечення безпеки на вашому телефоні заблоковане встановлення застосунків, отриманих не з Google Play</string>
+    <string name="unknown_apps_dlg_text">Для забезпечення безпеки на вашому пристрої заблоковано встановлення застосунків, отриманих не з Google Play.</string>
     <string name="ok">ОК</string>
     <string name="settings">Налаштування</string>
     <string name="allow_source_dlg_title">Дозволити додавання нового джерела для застосунків?</string>

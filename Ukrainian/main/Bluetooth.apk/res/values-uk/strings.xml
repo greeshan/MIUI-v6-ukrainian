@@ -123,8 +123,6 @@
     <string name="transfer_menu_open">Відкрити</string>
     <string name="transfer_menu_clear">Видалити зі списку</string>
     <string name="transfer_clear_dlg_title">Очистити</string>
-    <string name="upload_fail_waiting">Файл автоматично буде відправлено пізніше</string>
-    <string name="bluetooth_in_airplane_mode">В режимі польоту</string>
     <string name="pbap_session_key_dialog_title">Введіть ключ сеансу для %1$s</string>
     <string name="pbap_session_key_dialog_header">Необхідний ключ сеансу Bluetooth</string>
     <string name="pbap_acceptance_timeout_message">Минув час очікування при установці підключення до %1$s</string>
@@ -166,6 +164,8 @@
     <string name="profile_description_pan">Профіль особистої мережі</string>
     <string name="profile_description_sap">Профіль доступу до SIM</string>
     <string name="title_bt_mse_settings">Додаткові настроювання</string>
+    <string name="bluetooth_in_airplane_mode">В режимі польоту</string>
+    <string name="upload_fail_waiting">Файл автоматично буде відправлено пізніше</string>
     <string name="Errortoomanyrequests">Обробляється занадто багато запитів. Повторіть спробу пізніше.</string>
     <string name="deleteall_record">Видалити всі записи</string>
     <string name="localphonename">Моя назва</string>

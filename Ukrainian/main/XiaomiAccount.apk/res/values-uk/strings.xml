@@ -100,7 +100,7 @@
     <string name="passport_xiaomi_account_dspt">За дпомогою Mi акаунту ви зможете користуватися різними сервісами від Xiaomi</string>
     <string name="passport_remove_unactivated_account_notice">Mi акаунт не активований</string>
     <string name="passport_remove_confirm">Видалити</string>
-    <string name="passport_find_password_on_web_msg">Відвідайте account.xiaomi.com для скидання паролю</string>
+    <string name="passport_find_password_on_web_msg">Відвідайте account.mi.com для скидання паролю</string>
     <string name="passport_relogin">Увійти повторно</string>
     <string name="passport_skip_login">Пропустити реєстрацію</string>
     <string name="passport_checking_account">Зміна пароля…</string>
@@ -200,7 +200,7 @@
     <string name="hide_mibi_info">Інформація про Mi Сredit прихована</string>
     <string name="failed_get_mibi_info">Не вдається отримати Mi Credit</string>
     <string name="mipay_center">Акаунт банку</string>
-    <string name="mi_service">Підтримка</string>
+    <string name="mi_support_service">Підтримка</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">"Прив'язка Sina Weibo"</string>
     <string name="bind_weibo_description">Sina WeiBo - китайський сервіс мікроблогів, за допомогою якого ви зможете знайти інформацію про контакти.</string>
@@ -249,6 +249,7 @@
     <string name="account_user_name_dialog_title">"Введіть ім'я користувача"</string>
     <string name="account_user_using_weibo_avatar">Використовувати фото профілю Sina</string>
     <string name="account_user_using_qq_avatar">Використовувати фото профілю QQ</string>
+    <string name="account_user_using_facebook_avatar">Використовувати фото профілю Facebook</string>
     <string name="account_user_avatar_from_camera">Зняти фото</string>
     <string name="account_user_avatar_from_album">Вибрати фото</string>
     <string name="photoPickerNotFoundText">Немає фото</string>
@@ -257,6 +258,9 @@
     <string name="account_error_longer_user_name">"Ім'я не повинно містити більше 20 символов"</string>
     <string name="account_error_user_birthday">Невірна дата народження</string>
     <string name="account_crop_user_avatar">Обрезать фото</string>
+    <string name="sns_access_token_expired_warning">Час авторизації вийшов. Увійдіть повторно в цей акаунт.</string>
+    <string name="user_avatar_uploading">Завантаження…</string>
+    <string name="user_avatar_update_title">Фото профілю</string>
     <string name="bind_settings">Додаткові акаунти</string>
     <string name="cloud_service">Mi Cloud</string>
     <string name="account_bind_settings">Додаткові аккаунти</string>
@@ -274,6 +278,7 @@
     <string name="micloud_sync_state_synced">Дані синхронізовано</string>
     <string name="micloud_sync_state_syncing">Синхронізація…</string>
     <string name="micloud_sync_state_stop">Синхронізація зупинена</string>
+    <string name="micloud_sync_state_pending">Очікування</string>
     <string name="micloud_sync_state_need_wifi">Очікування мережі Wi-Fi</string>
     <string name="micloud_space_info">Вільно: %s</string>
     <string name="loading_micloud_sync_data">Завантаження...</string>
@@ -330,7 +335,7 @@
     <string name="enable_sync">Увімкнути</string>
     <string name="enable_sync_dspt">Синхронізація вимкнена</string>
     <string name="error_dup_email">"Цей Email вже прив'язана до іншого акаунту"</string>
-    <string name="error_dup_phone">Телефон вже зареєстрований</string>
+    <string name="error_dup_phone">Пристрій вже зареєстрований</string>
     <string name="error_login">Помилка авторизації</string>
     <string name="error_phone_error">Невірний номер телефону</string>
     <string name="error_sim_not_ready">SIM-картка не готова</string>
@@ -509,4 +514,5 @@
     <string name="sim_unactivated_title">Ваша SIM-карта не була активована</string>
     <string name="choose_which_one_sim">Виберіть номер телефону</string>
     <string name="sim_index_info">SIM карта %1$d - %2$s</string>
+    <string name="mi_service">Підтримка</string>
 </resources>

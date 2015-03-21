@@ -198,7 +198,7 @@
     <string name="express_address_delete_warning">Підтвердіть</string>
     <string name="express_sender_name">"Ім'я відправника"</string>
     <string name="express_addressee_name">"Ім'я одержувача"</string>
-    <string name="express_phone">Телефон</string>
+    <string name="express_phone">Пристрій</string>
     <string name="express_detailed_address">Адреса</string>
     <string name="express_no_address">Порожньо</string>
     <string name="express_order_confirmation">Підтвердження замовлення</string>
@@ -311,7 +311,7 @@
     <string name="account_verify_password">Для безпечного використання сервісів необхідно перевірити пароль акаунту</string>
     <string name="account_updating_device">Завантаження сервісів...</string>
     <string name="account_updating_device_failed">Помилка авторизації</string>
-    <string name="quick_yellow_page_tab_phones">Телефон</string>
+    <string name="quick_yellow_page_tab_phones">Пристрій</string>
     <string name="quick_yellow_page_tab_call_log">Журнал викликів</string>
     <string name="uploads_disabled">Завантаження файлів вимкнено</string>
     <string name="choose_upload">Виберіть файл для завантаження</string>
@@ -327,12 +327,12 @@
     <string name="sina_token_expired_warning">"Закінчився термін дії аккаунита Weibo, прив'яжіть акаунт заново."</string>
     <string name="sina_token_invalid_warning">"Неправильний запис Weibo, прив'яжіть акаунт заново."</string>
     <string name="sina_share_fail_content_repeat">Не вдається відправити. Вміст вже існує.</string>
-    <string name="recharge_pay_hint">За підтримки Xiaomi</string>
     <string name="express_company_empty">Немає компаній</string>
     <string name="express_inquiry_logistics_empty">Виберіть логістику</string>
     <string name="express_inquiry_logistics_indication">"Кур'єрська компанія"</string>
     <string name="express_no_tracking_number">Немає номера відстеження</string>
     <string name="menu_about_yellow_page">сторінки</string>
+    <string name="recharge_pay_hint">За підтримки Xiaomi</string>
     <string name="select">Вибрати</string>
     <string name="account_unactivated">Mi акаунт не активовано</string>
     <string name="all_resources">Все</string>
@@ -455,17 +455,17 @@
     <string name="resource_local">Локально %1$s</string>
     <string name="resource_menu_refresh">Оновити</string>
     <string name="resource_mute">Немає</string>
-    <string name="resource_my">Телефон</string>
+    <string name="resource_my">Локально</string>
     <string name="resource_no_result">Немає результатів</string>
     <string name="resource_notification_default">Сповіщ.</string>
     <string name="resource_on_trial">Застосування пробної версії: %1$s</string>
     <string name="resource_online">Онлайн %1$s</string>
-    <string name="resource_pack_confirm">Куплено компонентів теми: %1$d. Буде вигідніше купити повний комплект, ніж докупити по одному компоненту.</string>
+    <string name="resource_pack_confirm">Куплено тем: %1$d. Буде вигідніше купити повний комплект, ніж докупляти по одній темі.</string>
     <string name="resource_pack_discount_info">"Економія: 
 %1$s"</string>
     <string name="resource_pack_price_info">"Ціна: 
 %1$s"</string>
-    <string name="resource_pack_warning">Куплено компонентів теми: %1$d. Буде вигідніше куити інші компоненти по одному, ніж повний комплект.</string>
+    <string name="resource_pack_warning">Куплено тем: %1$d. Буде вигідніше куити інші теми по одній, ніж повний комплект.</string>
     <string name="resource_present">Подарувати</string>
     <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безкоштовно</string>

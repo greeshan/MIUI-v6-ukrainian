@@ -26,6 +26,7 @@
     <string name="activate">Активувати</string>
     <string name="no_sim">Немає SIM карти</string>
     <string name="find_device_status_ok">Пошук вашого пристрою через сайт i.mi.com</string>
+    <string name="find_device_status_ok_international">Пошук вашого пристрою через сайт www.mi.com/micloud</string>
     <string name="account">Акаунт</string>
     <string name="verify">Перевірити</string>
     <string name="next">Далі</string>
@@ -94,10 +95,11 @@
     <string name="enable_micloud">Активувати сервіси</string>
     <string name="micloud_more">Докладніше</string>
     <string name="micloud_dspt">Використовуйте Mi Cloud для синхронізації даних і пошуку пристрою</string>
-    <string name="cmcc_micloud_dspt">"Хмарні сервіси дозволяють синхронізувати дані, стежити за місцем розташування телефону, управляти даними з комп'ютера в кожний час"</string>
+    <string name="cmcc_micloud_dspt">"Хмарні сервіси дозволяють синхронізувати дані, стежити за місцем розташування, керувати даними з комп'ютера в будь-який час."</string>
     <string name="micloud_sec_dspt">Обмінюйтеся інформацією з друзями.</string>
     <string name="micloud_dspt_provision">Використовуйте Mi Cloud для синхронізації даних, пошуку пристрою й обміну інформацією з друзями.</string>
     <string name="start_micloud">Почати</string>
+    <string name="micloud_single_dspt">Використовуйте Mi Cloud для синхронізації даних, пошука вашого пристрою і не тільки.</string>
     <string name="micloud_proceed">Продовжити</string>
     <string name="master_alert_notif_title">Остання синхронізація: %s дн. назад</string>
     <string name="sub_alert_notif_title">Синхронізувати дані?</string>
@@ -109,6 +111,12 @@
     <string name="master_alert_notif_dspt_no">Дані синхронізовані</string>
     <string name="sub_alert_notif_dspt_add">Не синхронізовано %s</string>
     <string name="sub_alert_notif_dspt_no">Синхронізоване</string>
+    <string name="cloudservice_new_sync">Синхронізація %s з Mi Cloud</string>
+    <string name="click_to_enabled">Натисніть для синхронізації</string>
+    <string name="calendar_sync">Календар</string>
+    <string name="antispam_sync">Настройки режиму \"Не турбувати\"</string>
+    <string name="micloud_space_duokan_title">Книжки Duokan</string>
+    <string name="micloud_space_duokan_detail">Керуйте контентом за допомогою додатку Duokan</string>
     <string name="micloud_space_full_influence"><u>Докладніше</u></string>
     <string name="micloud_storage_usage" formatted="false">Зайняте: %s | Усього: %s</string>
     <string name="micloud_title_dspt" formatted="false">"Усього місця: %s 
@@ -150,7 +158,6 @@
     <string name="sync_sub_2_intl_sms">Для активації SIM карт будуть відправлені дві міжнародні SMS</string>
     <string name="sync_sub_1_sms_1_intl_sms">Для активації SIM карт будe відправлені одна міжнародна й одна звичайна SMS</string>
     <string name="sync_setting">Загальні</string>
-    <string name="less_flow_mode">Режим синхронізації</string>
     <string name="sync_standard">За замовчуванням</string>
     <string name="only_in_wlan">Тільки по Wi-Fi</string>
     <string name="cloud_sync_setting_summary_standard">За замовчуванням: синхронізувати по мережі Wi-Fi фото, відео, MMS, дані додатків і фото контактів, а інші дані по мобільному інтернету</string>
@@ -178,6 +185,7 @@
     <string name="micloud_main_data_unsynced">Даних для синхронізації: %d</string>
     <string name="micloud_main_detail">Інформація</string>
     <string name="micloud_main_network_abnormal">Не вдається підключитися до інтернету</string>
+    <string name="micloud_main_sync_init">Отримання інформації</string>
     <string name="micloud_main_syncing">Синхронізація...</string>
     <string name="micloud_main_last_sync_time">Остання синхронізація: %d</string>
     <string name="micloud_main_synced_data_count">Синхронізовано даних: %d</string>
@@ -204,6 +212,7 @@
     <string name="micloud_setting_browser_summary">Закладки і історія</string>
     <string name="micloud_setting_music_summary">Плейлисти і вибране</string>
     <string name="micloud_setting_wifi_summary">Налаштування Wi-Fi</string>
+    <string name="micloud_setting_antispam_summary">Виключення для режиму \"Не турбувати\" та блокованих номерів</string>
     <string name="upgrade_space_gb">Гб</string>
     <string name="upgrade_space_tb">Тб</string>
     <string name="upgrade_space_mibipreyear">%s Mi Credits у рік</string>
@@ -247,6 +256,7 @@
     <string name="share_success">Відправку завершено</string>
     <string name="share_cancel">Відправку скасовано</string>
     <string name="share_failed">Помилка відправлення</string>
+    <string name="less_flow_mode">Режим синхронізації</string>
     <string name="micloud_intro_01_part_01">Економія</string>
     <string name="micloud_intro_01_part_02">Хмарні повідомлення дозволяють спілкуватися користувачам MIUI безкоштовно по мережі Wi-Fi.</string>
     <string name="micloud_intro_02_part_01">Зручна синхронізація</string>
