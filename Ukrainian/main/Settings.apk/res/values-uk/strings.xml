@@ -3032,4 +3032,5 @@
     <string name="vpn_IPSec_secret">Загальний ключ IPSec</string>
     <string name="vpn_IPSec_server_cert">Сертифікат сервера IPSec</string>
     <string name="vpn_IPSec_user_cert">Сертифікат користувача IPSec</string>
+	<string name="greeshan_xposed_in_settings">Модулі</string>
 </resources>
