@@ -84,10 +84,6 @@
         <item quantity="other">Додано контактів: %1$d</item>
         <item quantity="one">Додано контактів: %1$d</item>
     </plurals>
-    <plurals name="export_sim_contact_finish_success">
-        <item quantity="other">Скопійовано контактів: %d</item>
-        <item quantity="one">Скопійовано контактів: %d</item>
-    </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Видалити контакти (%d)</item>
         <item quantity="one">Видалити контакт</item>
@@ -109,8 +105,20 @@
         <item quantity="zero">Обрано: %1$d</item>
         <item quantity="one">Обрано: %1$d</item>
     </plurals>
+    <plurals name="dlg_add_blacklist">
+        <item quantity="other">Заблокувати ці номери? (%1$d)</item>
+        <item quantity="one">Заблокувати цей номер?</item>
+    </plurals>
+    <plurals name="dlg_remove_blacklist">
+        <item quantity="other">Разблокувати ці номери? (%1$d)</item>
+        <item quantity="one">Разблокувати цей номер?</item>
+    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">| Гудков: %d</item>
         <item quantity="one">| Гудков: %d</item>
+    </plurals>
+    <plurals name="export_sim_contact_finish_success">
+        <item quantity="other">Скопійовано контактів: %d</item>
+        <item quantity="one">Скопійовано контактів: %d</item>
     </plurals>
 </resources>

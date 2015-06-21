@@ -20,6 +20,11 @@
     <string name="warning_tip_content">При завантажені файлів по мобільному інтернету може стягуватись додаткова плата оператором. Припинити завантаження?</string>
     <string name="warning_tip_cancel">Відміна</string>
     <string name="warning_tip_ok">ОК</string>
+    <string name="dialog_not_show_again">"Запам'ятати"</string>
+    <string name="notification_download_complete">Завантаження завершено</string>
+    <string name="notification_download_failed">Не вдалося завантажити файл</string>
+    <string name="notification_download_success_more">Завантажено файлів: %1$d</string>
+    <string name="notification_download_failed_more">Не вдалося завантажити: %1$d</string>
     <string name="app_label">Диспетчер завантаження</string>
     <string name="permlab_downloadManager">Доступ до менеджера завантаження</string>
     <string name="permdesc_downloadManager">Застосунок отримає доступ до диспетчера завантажень і зможе завантажувати файли через нього. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію</string>
@@ -36,8 +41,6 @@
     <string name="permlab_accessAllDownloads">Доступ до всіх завантажень</string>
     <string name="permdesc_accessAllDownloads">Застосунок зможе відкривати і змінювати завантаження незалежно від того, через який ПО вони були завантажені</string>
     <string name="download_unknown_title">&lt;без назви></string>
-    <string name="notification_download_complete">Завантаження завершено</string>
-    <string name="notification_download_failed">Не вдалося завантажити файл</string>
     <string name="notification_need_wifi_for_size">Очікування мережі Wi-Fi</string>
     <string name="notification_paused_in_background">Завантаження припинено</string>
     <string name="wifi_required_title">Занадто великий файл для мережі оператора</string>

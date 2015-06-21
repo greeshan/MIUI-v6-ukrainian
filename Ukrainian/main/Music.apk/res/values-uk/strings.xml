@@ -51,6 +51,7 @@
     <string name="eq_preset_hint">Назва пресету</string>
     <string name="eq_preset_select">Вибір пресету</string>
     <string name="action_item_download">Завантажити</string>
+    <string name="action_item_favorite">Вибрані</string>
     <string name="action_item_hide">Приховати</string>
     <string name="action_item_add_to_favorite_playlist">Вибрані</string>
     <string name="online_music">Онлайн</string>
@@ -67,6 +68,7 @@
     <string name="all_tracks_short">Всі</string>
     <string name="favorite_playlist">Вибрані</string>
     <string name="ktv_playlist">Плейлист KTV</string>
+    <string name="preset_music_playlist">Mi плейлист</string>
     <string name="my_playlist">Плейлисти</string>
     <string name="create_playlist">Створити плейлист</string>
     <string name="track_view">Трек</string>
@@ -108,6 +110,8 @@
     <string name="ok">ОК</string>
     <string name="done">Готове</string>
     <string name="retry">Повтор</string>
+    <string name="delete">Видалити</string>
+    <string name="remove">Видалить</string>
     <string name="dialog_button_scan_tracks">Пошук музики локально</string>
     <string name="dialog_button_login">Авторизуйтеся й синхронізуйте музику</string>
     <string name="dialog_hint_network_error">Не вдається підключитися до інтернету</string>
@@ -261,6 +265,8 @@
     <string name="set_album_successful">Обкладинка альбому встановлена</string>
     <string name="set_id3_successful">Інформація про трек змінена</string>
     <string name="set_id3_failed">Не вдалося змінити інформацію про трек</string>
+    <string name="set_id3_not_support_format">Не вдается змінити інформацію про трек</string>
+    <string name="set_id3_not_have_read_or_write_permission">Немає дозволів на редагування цього файлу</string>
     <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">Налаштування тексту пісні</string>
     <string name="modify_lyric">Змінити текст пісні</string>
@@ -289,8 +295,22 @@
     <string name="no_album_info">Немає інформації про альбом</string>
     <string name="no_enough_info">Недостатньо інформації про трек</string>
     <string name="disallow_add_to_personal_radio">Приватне радіо доступне тільки для прослуховування</string>
-    <string name="today_update">Музика оновлена</string>
     <string name="click_to_view_new_local_audios">Натисніть для перегляду інформації</string>
+    <string name="more_about_artist">Детальніше про %s</string>
+    <string name="play_all_song">Грати всі</string>
+    <string name="download_all_song">Завантажити всі</string>
+    <string name="sort_by_name">Назва</string>
+    <string name="sort_by_time">Дата</string>
+    <string name="sort_by_language">Мова</string>
+    <string name="only_online_can_select_quality">Якість можна обрати тілько для музики онлайн</string>
+    <string name="upgrade_remind">Наявне оновлення</string>
+    <string name="service_stop">Робота сервісу зупинена</string>
+    <string name="upgrade_suggest">Ми зупиняємо поточний сервіс онлайн музики через проблеми із авторськими правами. Оновіть застосунок до останньої версії, аби слухати музику у високій якості.</string>
+    <string name="upgrade_force">Ми зупиняємо поточний сервіс онлайн музики через проблеми із авторськими правами. Оновіть застосунок до останньої версії, аби слухати музику у високій якості.</string>
+    <string name="upgrade_nobeta">Ми зупиняємо поточний сервіс онлайн музики через проблеми із авторськими правами</string>
+    <string name="upgrade_waringing">Ви зможете прослуховувати лише локальну музику</string>
+    <string name="upgrade_immediate">Оновити</string>
+    <string name="i_know_it">ОК</string>
     <string name="download_auto_after_preference_summary">Автоматично завантажувати треки, котрі ви відмітили як вибрані.</string>
     <string name="download_auto_after_preference_title">Скачувати вибрані</string>
     <string name="dialog_button_agree">ОК</string>
@@ -310,4 +330,5 @@
 Може стягуватися додаткова плата."</string>
     <string name="allow_to_use_traffic_title">Попередження</string>
     <string name="use_traffic_toast">Не вдається підключитися до інтернету</string>
+    <string name="today_update">Музика оновлена</string>
 </resources>

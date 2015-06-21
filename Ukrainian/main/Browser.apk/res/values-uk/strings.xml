@@ -631,6 +631,7 @@
     <string name="no_matches">Немає збігів</string>
     <string name="webview_find_on_page">Знайти на сторінці</string>
     <string name="miui_content_open_url">Відкрити URL</string>
+    <string name="miuichromium_error_page_diagnostic">Дыагностика мережы</string>
     <string name="dump_counters">Скинути лічильники V8</string>
     <string name="dump_dom_tree">Дамп DOM у файл</string>
     <string name="dump_render_tree">Дамп дерева рендеринга у файл</string>
@@ -656,6 +657,10 @@
     <string name="find_on_page_prev">Назад</string>
     <string name="find_on_page_next">Далі</string>
     <string name="find_on_page_cancel">Скасувати</string>
+    <string name="sub_sync_item_browser_title_video">Синхронізація відео</string>
+    <string name="sub_sync_item_browser_title_video_summary">Синхронізація списку недавно побаченого відео</string>
+    <string name="sub_sync_item_browser_title_useful">Синхронызацыя даних</string>
+    <string name="sub_sync_item_browser_title_useful_summary">Синхронізуати головну сторінку браузеру</string>
     <string name="pref_volume_key_action">Навігація клавішами гучності</string>
     <string name="pref_other_title">Інше</string>
     <string name="pref_clear_data_title">Очищення даних</string>
@@ -759,6 +764,7 @@
     <string name="media_error_nomemory">"Пам'ять пристрою заповнена"</string>
     <string name="media_error_action_refresh">Оновити</string>
     <string name="media_error_action_replace_video_source">Замінити джерело відео</string>
+    <string name="video_buffering_percent_string">Буферизація…</string>
     <string name="webapp_app_name">Веб маркет застосунків</string>
     <string name="webapp_dialog_title">Додати застосунок на робочий стіл</string>
     <string name="webapp_add_to_desktop">На робочий стіл</string>

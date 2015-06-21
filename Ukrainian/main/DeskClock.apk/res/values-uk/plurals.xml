@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="timer_message_with_minutes">
-        <item quantity="other">%1$d хв.</item>
-        <item quantity="one">%1$d хв.</item>
+    <plurals name="timer_message_hour">
+        <item quantity="other">"%1$d г. "</item>
+        <item quantity="one">"%1$d г. "</item>
     </plurals>
-    <plurals name="timer_message_with_seconds">
+    <plurals name="timer_message_minute">
+        <item quantity="other">"%1$d хв. "</item>
+        <item quantity="one">"%1$d хв. "</item>
+    </plurals>
+    <plurals name="timer_message_second">
         <item quantity="other">%1$d сек.</item>
         <item quantity="one">%1$d сек.</item>
     </plurals>
@@ -19,6 +23,14 @@
     <plurals name="snooze_message">
         <item quantity="other">Відкласти на %d хв.</item>
         <item quantity="one">Відкласти на %d хв.</item>
+    </plurals>
+    <plurals name="timer_message_with_minutes">
+        <item quantity="other">%1$d хв.</item>
+        <item quantity="one">%1$d хв.</item>
+    </plurals>
+    <plurals name="timer_message_with_seconds">
+        <item quantity="other">%1$d сек.</item>
+        <item quantity="one">%1$d сек.</item>
     </plurals>
     <plurals name="Nhours_description">
         <item quantity="other">%d г.</item>

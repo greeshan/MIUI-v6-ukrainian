@@ -469,14 +469,6 @@
         <item>8 секунд</item>
         <item>9 секунд</item>
     </string-array>
-    <string-array name="mi1_led_color_entries">
-        <item>Синій</item>
-        <item>Червоний</item>
-        <item>Зелений</item>
-        <item>Рожевий</item>
-        <item>Фіолетовий</item>
-        <item>Пурпурний</item>
-    </string-array>
     <string-array name="led_color_entries">
         <item>Синій</item>
         <item>Червоний</item>
@@ -485,6 +477,21 @@
         <item>Блакитний</item>
         <item>Білий</item>
         <item>Фіолетовий</item>
+    </string-array>
+    <string-array name="mi1_led_color_entries">
+        <item>Синій</item>
+        <item>Червоний</item>
+        <item>Зелений</item>
+        <item>Рожевий</item>
+        <item>Фіолетовий</item>
+        <item>Пурпурний</item>
+    </string-array>
+    <string-array name="pink_panel_led_color_entries">
+        <item>Фіолетовий</item>
+        <item>Червоний</item>
+        <item>Жовтий</item>
+        <item>Зелений</item>
+        <item>Пурпурний</item>
     </string-array>
     <string-array name="screen_key_press_action">
         <item>Недавні додатки</item>
@@ -650,6 +657,42 @@
         <item>ГОРЯЧИЙ</item>
         <item>ТЕПЛИЙ</item>
         <item>ХОЛОДНИЙ</item>
+    </string-array>
+    <string-array name="install_non_market_app_entries">
+        <item>Запитувати для невідомих застосунків</item>
+        <item>Дозволити</item>
+    </string-array>
+    <string-array name="install_non_market_app_contents">
+        <item>Запитувати</item>
+        <item>Дозволити</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_entries">
+        <item>сразу</item>
+        <item>через 1 хвилину</item>
+        <item>через 2 хвилини</item>
+        <item>через 5 хвилин</item>
+        <item>через 15 хвилин</item>
+        <item>через 30 хвилин</item>
+    </string-array>
+    <string-array name="fluency_mode_entries">
+        <item>Вимкнути системну анімацію</item>
+        <item>Увімкнути системну анімацію</item>
+    </string-array>
+    <string-array name="fluency_mode_summaries">
+        <item>Для підвищення продуктивності вимкніть системну анімацію</item>
+        <item>Системна анімація може вплинути на продуктивність пристрою</item>
+    </string-array>
+    <string-array name="fluency_mode_confirms">
+        <item>Перезавантажити пристрій для застосування налаштувань?</item>
+        <item>Перезавантажити пристрій для застосування налаштувань?</item>
     </string-array>
     <string-array name="miracast_policies">
         <item>Продуктивність</item>

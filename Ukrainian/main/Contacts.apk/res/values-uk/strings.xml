@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="select_all">" Вибрати всі "</string>
-    <string name="deselect_all">Зняти вибір</string>
     <string name="resource_app_name">Менеджер ресурсів</string>
     <string name="resource_delete">Видалити</string>
     <string name="resource_price_free">Безкошоштовно</string>
@@ -108,6 +106,7 @@
     <string name="resource_title_select_ringtone">Виберіть мелодію</string>
     <string name="resource_tip_select_none">Не вибрано</string>
     <string name="resource_select_ringtone_confirm">Вибрати цю мелодію?</string>
+    <string name="resource_select_ringtone_confirm_picker">Встановити цю мелодію?</string>
     <string name="loading_resource_detail_info">Завантаження…</string>
     <string name="loading_resource_detail_fail">Не вдалося завантажити ресурс</string>
     <string name="resource_expand_full_text">Розгорнути</string>
@@ -722,7 +721,6 @@
     <string name="dialog_voicemail_not_ready_message">Щоб налаштувати голосову пошту, перейдіть у Меню >Налаштування</string>
     <string name="dialog_voicemail_airplane_mode_message">Для виклику голосової пошти, спочатку вимкніть режим польоту</string>
     <string name="action_menu_overflow_description">Додаткові параметри</string>
-    <string name="yellowpage_navigation_network_location_enabled">Сервіс активний. Відключити його можна в налаштуваннях місця розташування</string>
     <string name="yellowpage_search_the_yellowpage">Пошук сервісу</string>
     <string name="import_from_sim">Імпорт із SIM карти</string>
     <string name="export_to_sim_title">Експортування…</string>
@@ -799,6 +797,8 @@
     <string name="date_time_set">Налаштувати</string>
     <string name="service_provider">Сервісні контакти</string>
     <string name="zero_items_selected">Виберіть контакти</string>
+    <string name="select_all">" Вибрати всі "</string>
+    <string name="deselect_all">Зняти вибір</string>
     <string name="select_none">Необхідно вибрати контакти</string>
     <string name="toast_finish_delete_call_log">Журнал викликів очищений</string>
     <string name="toast_finish_delete_selected_call_log">Видалення завершене</string>
@@ -823,6 +823,7 @@
     <string name="contactDetailCalllog">Журнал викликів</string>
     <string name="add_blacklist">У чорний список</string>
     <string name="remove_blacklist">Видалити із чорного списку</string>
+    <string name="blacklist">Блокувати</string>
     <string name="empty_divider_title">Ви можете</string>
     <string name="noContactHelpTextAccountsInfo" />
     <string name="noContactHelpTextImportXiaomiAccountInfo">Відновити контакти з резервної копії в Mi акаунті</string>
@@ -836,6 +837,7 @@
     <string name="picker_contact_title">Виберіть контакт</string>
     <string name="picker_number_title">Виберіть номер</string>
     <string name="group_add_fail_toast">Помилка додавання контаков</string>
+    <string name="group_sms_error_message">Перевищено межу отримувачів: %s</string>
     <string name="picker_postal_title">Виберіть поштовий індекс</string>
     <string name="picker_email_title">Виберіть адресу Email</string>
     <string name="preference_import">Імпорт</string>
@@ -855,10 +857,7 @@
     <string name="preference_import_export">Імпорт і експорт</string>
     <string name="preference_import_export_title">Імпорт і експорт</string>
     <string name="export_vcard_description">"Експорт vСard у пам'ять телефону"</string>
-    <string name="export_sim_contact_finish_failure">"Недостатньо місця. 
-
-скопійовано: %1$d 
-не вдалося: %2$d"</string>
+    <string name="export_sim_contact_finish_msg">Передано: %1$d | Пропущено: %2$d | Залишилось: %3$d</string>
     <string name="pref_title_account_import">Імпорт із акаунта</string>
     <string name="pref_title_import_from_account">В Mi акаунт</string>
     <string name="pref_summary_import_from_account">Імпорт контактів з акаунта Google в Mi акаунт</string>
@@ -903,6 +902,7 @@
     <string name="preference_dial_pad_touch_tone_human">Голос</string>
     <string name="ic_menu_done">Готове</string>
     <string name="cloud_antispam_title">Визначення номерів</string>
+    <string name="preference_contacts_recovery_introduction">Відновлення контактів</string>
     <string name="share_over_limit">Не вдається відправити. Ліміт перевищено.</string>
     <string name="account_default">За замовчуванням</string>
     <string name="lunarBirthdayLabelsGroup">Місячний день народження</string>
@@ -986,6 +986,7 @@
     <string name="btn_split_contact">Розділити контакт</string>
     <string name="use_photo_as_primary2">Використовувати фото контакту %1$s</string>
     <string name="label_custom_type">Користувацький</string>
+    <string name="loading_accounts">Завантаження інформації про SIM карту…</string>
     <string name="pkgLabel">Контакти й телефон</string>
     <string name="preference_smart_group_title">Розумне груповання</string>
     <string name="preference_smart_group_company_title">За компаніями</string>
@@ -1079,16 +1080,18 @@
     <string name="toast_copying">Копіювання…</string>
     <string name="toast_copy_done">Копіювання завершене</string>
     <string name="group_name">Групи</string>
-    <string name="starred_yellowpage">Вибрані сервіси</string>
+    <string name="followed_yellowpage">Відстежувані сервіси</string>
     <string name="import_all_sim_entries_miui">Імпорт усіх контактів</string>
     <string name="import_sim_entry_miui">Імпорт</string>
     <string name="delete_sim_entry_miui">Видалити</string>
+    <string name="importing_sim_contacts_miui_prepare">Підготовка до імпортування…</string>
+    <string name="deleting_sim_entry_miui_prepare">Підготовка до видалення…</string>
     <string name="sim_contact_dropdown_menu_deselect_all_miui">" Зняти вибір "</string>
     <string name="sim_contact_dropdown_menu_select_all_miui">" Вибрати все "</string>
     <string name="delete_selected_sim_entry_miui">Видалити обрані контакти</string>
     <string name="import_selected_sim_entries_miui">Імпорт обраних контактів</string>
-    <string name="dlg_add_blacklist">Додати номер у чорний список?</string>
-    <string name="dlg_remove_blacklist">Видалити номер із чорного списку?</string>
+    <string name="add_blacklist_dialog_title">Заблоквати цей номер?</string>
+    <string name="remove_blacklist_dialog_title">Разблокувати ці номери?</string>
     <string name="close_dial_pad">Закрити клавіатуру</string>
     <string name="dial">Виклик</string>
     <string name="delete_dial_input">Видалити</string>
@@ -1123,10 +1126,6 @@
     <string name="yellowpage_navigation_send_to_desktop_succeeded">Додане на робочий стіл</string>
     <string name="yellowpage_navigation_send_to_desktop_downloading">Завантаження іконки…</string>
     <string name="yellowpage_navigation_send_to_desktop_failed">Помилка підключення до мережі</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_title">Використання місця розташування</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_summary">Послуги будуть відображатися згідно з вашим місцеположенням, у якому місті ви перебуваєте. Включення цієї функції може поліпшити якість сервісів</string>
-    <string name="yellowpage_navigation_network_location_enable">Включити</string>
-    <string name="yellowpage_navigation_network_location_enable_later">Пізніше</string>
     <string name="yellowpage_user_profile">Профіль</string>
     <string name="yellowpage_navigation_more_items">Ще</string>
     <string name="yellowpage_navigation_more_items_title">Інші сервіси</string>
@@ -1143,26 +1142,38 @@
     <string name="pull_to_refresh_pull_label">Потягніть вниз для оновлення</string>
     <string name="pull_to_refresh_release_label">Відпустіть для оновлення</string>
     <string name="pull_to_refresh_refreshing_label">Завантаження…</string>
-    <string name="export_sim_contacts_dialog_message">"Експортувати контакти на SIM карту? 
-
-свободно: %d"</string>
-    <string name="confirm_delete_sim_entry_miui">"Видалити обрані контакти з SIM карти? 
-контактів: %d"</string>
-    <string name="export_sim_contact_finish_success">Скопійоване контактів: %d</string>
-    <string name="btn_delete_one_contact">Видалити</string>
-    <string name="btn_delete_multi_contacts">Видалити контакти (%d)</string>
     <string name="batch_delete_msg">"Видалити обрані контакти? 
 
 Контактів: %d 
 
 Дані, які зберігаються у Mi Cloud також будуть видалені."</string>
+    <string name="btn_delete_multi_contacts">Видалити контакти (%d)</string>
+    <string name="btn_delete_one_contact">Видалити</string>
     <string name="callNoAnswerTimeFormat">" | Гудків: %s"</string>
+    <string name="confirm_delete_sim_entry_miui">"Видалити обрані контакти з SIM карти? 
+контактів: %d"</string>
+    <string name="dlg_add_blacklist">Додати номер у чорний список?</string>
+    <string name="dlg_remove_blacklist">Видалити номер із чорного списку?</string>
+    <string name="export_sim_contact_finish_failure">"Недостатньо місця. 
+
+скопійовано: %1$d 
+не вдалося: %2$d"</string>
+    <string name="export_sim_contact_finish_success">Скопійоване контактів: %d</string>
+    <string name="export_sim_contacts_dialog_message">"Експортувати контакти на SIM карту? 
+
+свободно: %d"</string>
     <string name="none_found">Пристрої не знайдені</string>
     <string name="resource_get_auth_missing">Теми завантажені зі сторонніх джерел не підтримуються</string>
     <string name="resource_tip_select_ringtone">Мелодія не обрана</string>
     <string name="scanning">Пошук пристроїв…</string>
     <string name="select_device">Виберіть пристрій</string>
+    <string name="yellowpage_navigation_network_location_enable">Включити</string>
+    <string name="yellowpage_navigation_network_location_enable_later">Пізніше</string>
+    <string name="yellowpage_navigation_network_location_enabled">Сервіс активний. Відключити його можна в налаштуваннях місця розташування</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_summary">Послуги будуть відображатися згідно з вашим місцеположенням, у якому місті ви перебуваєте. Включення цієї функції може поліпшити якість сервісів</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_title">Використання місця розташування</string>
     <string name="resource_unable_to_access">Вміст, який ви шукайте, недоступно у вашій країні</string>
+    <string name="starred_yellowpage">Вибрані сервіси</string>
     <string name="resource_download_notification_content">Натисніть для перегляду</string>
     <string name="check_unsynchronized_accounts">Сповіщати про синхронізацію акаунтів</string>
     <string name="contact_detail_picture_description">Змінити фото</string>

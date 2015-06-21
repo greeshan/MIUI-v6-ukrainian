@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="cache_sort_type">
-        <item>За разміром</item>
-        <item>За іменем</item>
-    </string-array>
-    <string-array name="large_file_sort_type">
-        <item>За розміром</item>
-        <item>За іменем</item>
-    </string-array>
-    <string-array name="installed_app_sort_type">
-        <item>За частотою використання</item>
-        <item>За разміром</item>
-    </string-array>
-    <string-array name="auto_clean_time">
-        <item>Щоденно</item>
-        <item>Кожні 3 дні</item>
-        <item>Кожні 7 днів</item>
-    </string-array>
-    <string-array name="auto_clean_size">
-        <item>100 Мб</item>
-        <item>300 Мб</item>
-        <item>500 Мб</item>
-        <item>1 Гб</item>
-    </string-array>
-    <string-array name="auto_process_mode">
-        <item>Питати перед очищенням</item>
-        <item>Сповіщати про фон</item>
-        <item>Сповіщати після очищення</item>
-    </string-array>
     <string-array name="auto_memory_clean">
         <item>Через 1 хвилину</item>
         <item>Через 5 хвилин</item>
         <item>Через 10 хвилин</item>
         <item>Ніколи</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Робочий стіл</item>
+        <item>Телефон</item>
+        <item>Повідомлення</item>
+        <item>Браузер</item>
+        <item>Камера</item>
+        <item>Галерея</item>
+        <item>Музика</item>
+        <item>Пошта</item>
     </string-array>
     <string-array name="power_dialog_auto_clean_memory_items">
         <item>Через 1 хвилину</item>
@@ -75,5 +57,33 @@
         <item>Щоденно</item>
         <item>По буднях</item>
         <item>Обрати дні</item>
+    </string-array>
+    <string-array name="cache_sort_type">
+        <item>За разміром</item>
+        <item>За іменем</item>
+    </string-array>
+    <string-array name="installed_app_sort_type">
+        <item>За частотою використання</item>
+        <item>За разміром</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
+        <item>За розміром</item>
+        <item>За іменем</item>
+    </string-array>
+    <string-array name="auto_clean_size">
+        <item>100 Мб</item>
+        <item>300 Мб</item>
+        <item>500 Мб</item>
+        <item>1 Гб</item>
+    </string-array>
+    <string-array name="auto_clean_time">
+        <item>Щоденно</item>
+        <item>Кожні 3 дні</item>
+        <item>Кожні 7 днів</item>
+    </string-array>
+    <string-array name="auto_process_mode">
+        <item>Питати перед очищенням</item>
+        <item>Сповіщати про фон</item>
+        <item>Сповіщати після очищення</item>
     </string-array>
 </resources>

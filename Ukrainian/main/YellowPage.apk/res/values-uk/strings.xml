@@ -11,6 +11,7 @@
     <string name="check_network">Парамети мережі</string>
     <string name="try_again">Повтор</string>
     <string name="network_unavaliable">Мережа недоступна. Будь ласка, перевірте налаштування мережі.</string>
+    <string name="network_access_denied">Доступ до інтернету заборонений</string>
     <string name="service_unavailiable">Мережа недоступна. Повторіть спробу пізніше.</string>
     <string name="data_error">Сервіс недоступний. Повторіть спробу пізніше.</string>
     <string name="locating_fail">Помилка визначення місця розташування, перевірте параметри служби.</string>
@@ -55,6 +56,8 @@
     <string name="content_desc_send_sms">Надіслати повідомлення</string>
     <string name="currency_character">Ұ</string>
     <string name="app_recommendation_install">Встановити</string>
+    <string name="menu_follow_yellow_page">Підписатися</string>
+    <string name="menu_unfollow_yellow_page">Відписатися</string>
     <string name="menu_add_to_favorite">У вибрані</string>
     <string name="menu_remove_from_favorite">вибраних</string>
     <string name="menu_correct_yellow_page">Коригування</string>
@@ -82,9 +85,16 @@
     <string name="confirm_to_remove_blacklist">Розблокувати номер?</string>
     <string name="custom_mark_category">Своя мітка</string>
     <string name="mark_number_dialog_maintitle">Виберіть мітку</string>
-    <string name="mark_number_custom_dialog_maintitle">Підтвердити або відредагувати</string>
-    <string name="selected_category_format">%1$s(%2$d - номер позначено, продовжити?)</string>
+    <string name="mark_number_dialog_subtitle">Відмічено користувачами (%2$d) як \"%1$s\"</string>
+    <string name="mark_number_marked_subtitle">Я відмітив як %s</string>
+    <string name="mark_number_marked_maintitle">Змінити</string>
     <string name="mark_title_null_hint">Це поле не може бути порожнім</string>
+    <string name="mark_number_custom_mark_deleted">Мітка видалена</string>
+    <string name="mark_number_feedback_success">Звіт надіслано. Номер буде перевірено.</string>
+    <string name="mark_number_feedback">Звіт</string>
+    <string name="mark_number_feedback_hint">Введіть коментарій</string>
+    <string name="mark_number_feedback_invalid_hint">Введіть коректний коментарій</string>
+    <string name="mark_number_remove">Видалити мітку</string>
     <string name="smart_antispam">Визначення номерів</string>
     <string name="turn_on_smart_antispam_hint">Номери будуть визначатися автоматично з бази жовтих сторінок. Якщо номер не визначився, можна позначити його вручну.</string>
     <string name="turn_on_smart_antispam_title">Визначення номерів</string>
@@ -93,6 +103,7 @@
     <string name="agree">OK</string>
     <string name="enable_now">Включити</string>
     <string name="dont_enable">Скасувати</string>
+    <string name="user_notice_title">повідомлення користувача</string>
     <string name="user_notice_identify_summary_format">Визначення невідомих номерів працює за допомогою онлайн сервісу. Прочитайте перед використанням: %1$s %2$s</string>
     <string name="user_notice_yp_detail_summary_format">"Прийняти умови користування? 
 Інформація буде завантажена за допомогою онлайн сервісу Xiaomi. Прочитайте %1$s %2$s"</string>
@@ -128,6 +139,7 @@
     <string name="recharge_payment_result_failed_title">Помилка поповнення</string>
     <string name="recharge_payment_result_failed_summary">Будь ласка, повторіть спробу.</string>
     <string name="recharge_payment_result_progress_summary">Перевірка платежу...</string>
+    <string name="recharge_payment_error">Замовлення закритий або сталася помилка. Попторіте спробу.</string>
     <string name="recharge_phone_number_error">Невірний номер телефону</string>
     <string name="recharge_phone_number_empty">Номер не може бути порожнім</string>
     <string name="recharge_user_confirm_title">OK</string>
@@ -159,6 +171,7 @@
     <string name="express_inquiry_serial_number_indication">Номер</string>
     <string name="express_inquiry_button_text">Відстежити трек</string>
     <string name="express_inquiry_serial_number_prefix">"Номер: "</string>
+    <string name="express_inquiry_logistics_prefix">"Кур'єрська служба: %s"</string>
     <string name="express_inquiry_no_result">Немає результатів</string>
     <string name="express_inquiry_internal_failure">Помилка. Перевірте номер.</string>
     <string name="express_inquiry_data_owner_prefix">Інформація надана</string>
@@ -243,7 +256,6 @@
     <string name="express_order_state_unknown">Невідомо</string>
     <string name="express_view_status">Перевірити</string>
     <string name="express_no_order_info">Немає інформації про замовлення:</string>
-    <string name="express_order_detail">Інформація</string>
     <string name="express_contact_prefix">"Контакт "</string>
     <string name="express_contact_label">Ваша інформація</string>
     <string name="express_contact_phone">Введіть свій номер телефону</string>
@@ -261,6 +273,10 @@
     <string name="express_no_order">Немає замовлення</string>
     <string name="express_order_info">Інформація про замовлення:</string>
     <string name="express_urge_order">Відкликати замовлення</string>
+    <string name="express_copy_number">Скопіювати</string>
+    <string name="express_send_mms">Надіслати</string>
+    <string name="express_send_mms_format">Посилка надіслана через \"%1$s\". Номер відслідковування: %2$s.</string>
+    <string name="express_copied">Номер відслідковування скопійовано</string>
     <string name="remind_user_suspect_number_title">Остерігайтеся шахрайства</string>
     <string name="remind_user_suspect_number_message">"Злочинці можуть вкрасти номери чужих телефонів. У разі сумнівів, будь ласка, передзвоніть, щоб перевірити. 
 Органи громадської безпеки, поштового сектора, електронної комерції, компанії та кур'єрські компанії не запитують інформацію про банковіські карти."</string>
@@ -277,6 +293,8 @@
     <string name="navigation_search_no_city_list">Немає результатів</string>
     <string name="navigation_search_hot_cities">Популярні</string>
     <string name="navigation_search_all_cities">Всі міста</string>
+    <string name="yuan">Юань</string>
+    <string name="order_type_recharge">Поповнення</string>
     <string name="order_empty_hint">Немає замовлень</string>
     <string name="order_merchant_title">Мої замовлення</string>
     <string name="order_merchant_title_format">%1$s%2$s</string>
@@ -286,6 +304,7 @@
     <string name="order_id_label">ID замовлення: %s</string>
     <string name="order_date_label">Дата замовлення: %s</string>
     <string name="order_not_found">Немає замовлень</string>
+    <string name="order_detail">Iнформація</string>
     <string name="general_yellow_page_title">Загальне</string>
     <string name="general_recent_title">Останні</string>
     <string name="general_favorite_title">Обрані</string>
@@ -295,6 +314,15 @@
     <string name="general_cancel_favorite_ok">Видалено з обраного</string>
     <string name="general_delete_recent_ok">Останні видалені</string>
     <string name="general_favorite_ok">Додано в вибране</string>
+    <string name="general_menu_unfollow">Відписатися</string>
+    <string name="general_btn_follow_ok">Ви успішно підписані</string>
+    <string name="general_btn_follow">Підписатися</string>
+    <string name="general_follow_hint">"При підписці на %1$s ви зможете отримувати інформацію від %1$s, а також отримати більше сервісів %1$s.
+
+Підписатися на цю сторінку?"</string>
+    <string name="general_unfollow_hint">Відписатися від %1$s?</string>
+    <string name="general_cancel_followed_ok">Ви успішно відписалися</string>
+    <string name="general_follow_hint_title">Попередження</string>
     <string name="nearby_yellow_page_title">Поблизу</string>
     <string name="nearby_no_yellow_page">Немає результатів</string>
     <string name="nearby_yellow_page_title_format">%1$s%2$s</string>
@@ -304,6 +332,7 @@
     <string name="callNoAnswerTimeFormat">Викликів: %s</string>
     <string name="account_yellowpage_recent">Історія</string>
     <string name="account_yellowpage_favorite">Вибране</string>
+    <string name="account_yellowpage_followed">Перевірені акаунти</string>
     <string name="account_order">Мої замовлення</string>
     <string name="account_address">Мої адреси</string>
     <string name="account_title">Профіль</string>
@@ -318,9 +347,15 @@
     <string name="web_permission_message">%1$s запитує доступ до %2$s</string>
     <string name="remember_preference">Запамятати</string>
     <string name="allow">Дозволити</string>
+    <string name="view_orders">Показати замовлення</string>
     <string name="pull_to_refresh_pull_label">Потягніть для оновлення…</string>
     <string name="pull_to_refresh_release_label">Відпустіть для оновлення…</string>
     <string name="pull_to_refresh_refreshing_label">Завантаження…</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_title">Попередження</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_summary">Дозволити доступ до вашого місця розташування для поліпшення пошуку?</string>
+    <string name="yellowpage_navigation_network_location_enable">Дозволити</string>
+    <string name="yellowpage_navigation_network_location_enable_later">Скасування</string>
+    <string name="yellowpage_navigation_network_location_enabled">Доступ до місця розташування дозволений, ви зможете відключити його в налаштуваннях.</string>
     <string name="sina_share_pendding">Відправка...</string>
     <string name="sina_share_success">Відправлено</string>
     <string name="sina_share_fail">Помилка відправки</string>
@@ -331,9 +366,12 @@
     <string name="express_inquiry_logistics_empty">Виберіть логістику</string>
     <string name="express_inquiry_logistics_indication">"Кур'єрська компанія"</string>
     <string name="express_no_tracking_number">Немає номера відстеження</string>
+    <string name="express_order_detail">Інформація</string>
+    <string name="mark_number_custom_dialog_maintitle">Підтвердити або відредагувати</string>
     <string name="menu_about_yellow_page">сторінки</string>
     <string name="recharge_pay_hint">За підтримки Xiaomi</string>
     <string name="select">Вибрати</string>
+    <string name="selected_category_format">%1$s(%2$d - номер позначено, продовжити?)</string>
     <string name="account_unactivated">Mi акаунт не активовано</string>
     <string name="all_resources">Все</string>
     <string name="deleting">Видалення…</string>

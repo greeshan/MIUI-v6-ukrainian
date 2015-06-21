@@ -211,6 +211,13 @@ d MMMM yyyy"</string>
     <string name="audio_effect_settings">Тип гарнітури</string>
     <string name="audio_effect_info">Покращення звуку</string>
     <string name="audio_effect_custom">Налаштувати</string>
+    <string name="media_projection_dialog_text">%s буде захоплювати все, що відображається на вашому екрані.</string>
+    <string name="media_projection_remember_text">"Запам'ятати"</string>
+    <string name="media_projection_action_text">Почати</string>
+    <string name="vpn_title">Мережа VPN активна</string>
+    <string name="vpn_title_long">Підключення VPN через %s</string>
+    <string name="vpn_text">Натисніть для настройки</string>
+    <string name="vpn_text_long">Підключено до %s. Натисніть для перегляду.</string>
     <string name="battery_low_subtitle">Підключіть зарядний пристрій</string>
     <string name="battery_low_why">Статистика</string>
     <string name="screen_button_disabled_message">Клавіші навигації вимкнені. Ви можете вимкнути їх знову, натиснувши клавіші \"Додому\" + \"Живлення\".</string>

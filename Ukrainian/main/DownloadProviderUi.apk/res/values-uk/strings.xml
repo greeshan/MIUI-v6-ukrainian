@@ -115,6 +115,16 @@
     <string name="xunlei_close_tips_button">Прискорити</string>
     <string name="toast_xunlei_engine_open">"Сервіс прискорення завантаження Xunlei ввімкнено.
 Налаштування сервісу доступні в правому верхньому куті."</string>
+    <string name="recommend_other_downloads">Популярні</string>
+    <string name="recommend_show_other_downloads">Показати популярні</string>
+    <string name="recommend_install">Встановити</string>
+    <string name="recommend_open">Відкрити</string>
+    <string name="recommend_downloading">Завантаження…</string>
+    <string name="recommend_prepare">Очікування</string>
+    <string name="recommend_installing">Встановлення…</string>
+    <string name="recommend_failed">Помилка</string>
+    <string name="recommend_paused">Пауза</string>
+    <string name="recommend_loading">Завантаження……</string>
     <string name="app_label">Завантаження</string>
     <string name="download_title">Завантаження</string>
     <string name="download_title_sorted_by_date">Завантаження - за датою</string>

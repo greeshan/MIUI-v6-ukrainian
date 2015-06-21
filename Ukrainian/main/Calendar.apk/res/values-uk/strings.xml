@@ -168,6 +168,7 @@
     <string name="user_notice_online_title">Повідомлення</string>
     <string name="user_notice_online_ok">Продовжити</string>
     <string name="not_exist_topic_list">Не вдається отримати список календарів</string>
+    <string name="birthday_notification_text_three_days_later_with_activity">Готуйтеся до дня народження</string>
     <string name="button_day">Д</string>
     <string name="button_week">Т</string>
     <string name="button_month">М</string>
@@ -232,6 +233,7 @@
     <string name="birthday_event_description">Сьогодні %4$s: %1$s</string>
     <string name="jump_date">Перейти</string>
     <string name="jump_date_full">Перейти до дати</string>
+    <string name="select_date">Виберіть дату</string>
     <string name="miui_chinese_week_range_single" />
     <string name="miui_chinese_week_range_double" />
     <string name="miui_menu_create_event">Новий захід</string>

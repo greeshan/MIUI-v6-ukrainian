@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="album_slot_detail_font_size">9.0sp</dimen>
     <dimen name="ubifocus_tip_text_size">12.0sp</dimen>
+    <dimen name="paint_adjust_textview_maxwidth">65.0dip</dimen>
 </resources>

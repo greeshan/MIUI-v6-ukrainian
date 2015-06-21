@@ -301,6 +301,7 @@
     <string name="open_file_failed">Не вдалося відкрити файл</string>
     <string name="action_mode_deselect_all">Зняти вибір</string>
     <string name="action_mode_select_all">Вибрати все</string>
+    <string name="can_not_send_with_too_many">Не вдалося відправити так багато файлів</string>
     <string name="file_already_downlaoded">Файл збережений в \"%1$s\"</string>
     <string name="copy_file_to_kuaipan">Копіювати в Kuaipan</string>
     <string name="downloading_in_3g">Завантаження по мережі 3G…</string>

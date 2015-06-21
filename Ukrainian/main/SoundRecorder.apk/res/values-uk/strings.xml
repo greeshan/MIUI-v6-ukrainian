@@ -90,6 +90,7 @@
     <string name="data_connection_button_text">ОК</string>
     <string name="error_sdcard_unmounted">Накопичувач відключений</string>
     <string name="record_back_pressed_hint">Натисніть ще раз для зупинки запису</string>
+    <string name="record_mark_point">Міток: %s</string>
     <string name="access_error">Запис неможливий у режимі \"Гість\"</string>
     <string name="button_ok">ОК</string>
     <string name="hour">%d г.</string>

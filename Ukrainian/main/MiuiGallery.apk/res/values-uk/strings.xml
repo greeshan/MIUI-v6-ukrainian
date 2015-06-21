@@ -78,11 +78,6 @@
 
 файлыв: %s"</string>
     <string name="comfirm_delete_current_album">Видалити обраний альбом?</string>
-    <string name="confirm_delete_album" formatted="false">"Видалити обрані альбоми із зображеннями? 
-
-альбомыв: %s 
-изображень: %s"</string>
-    <string name="confirm_delete_system_album">Видалити системний альбом \"%s\"?</string>
     <string name="operation_delete_confirm_message_folder">"Тека буде видалена з усіма файлами.
 "</string>
     <string name="delete_folder">"Видалити обрані теки? 
@@ -108,6 +103,7 @@
     <string name="details_title">%1$d з %2$d:</string>
     <string name="close">Закрити</string>
     <string name="select_item">Режим редагування</string>
+    <string name="select_item_face">Виберіть фото для %1</string>
     <string name="show_on_map">Показати на карті</string>
     <string name="no_map_app">Немає застосунків навігації</string>
     <string name="no_such_item">Елемент не знайдений</string>
@@ -194,6 +190,7 @@
     <string name="remove_hidden_album">Скасувати приховання</string>
     <string name="skip_hide_special_album">Неможливо сховати системні альбоми</string>
     <string name="photos">" фото/відео"</string>
+    <string name="videos">Відео</string>
     <string name="tab_lockscreen_text">Екран блокування</string>
     <string name="tab_wallpaper_text">Робочий стіл</string>
     <string name="tab_all_text">На все</string>
@@ -334,8 +331,7 @@
     <string name="alert_secret_album_title">Секретний альбом</string>
     <string name="alert_secret_album_message">Ви можете прокрутити хмарні фото і відео в секретному альбомі</string>
     <string name="alert_secret_album_set_pattern">Графічний ключ</string>
-    <string name="cant_delete_cloud_album">"Не вдалося видалити.
-%s - системний альбом або відправлений від іншого користувача"</string>
+    <string name="cant_delete_system_album">Не вдається видалити системний альбом %s</string>
     <string name="cannot_delete_sharer_photo">"Помилка видалення.
 зображення завантажені іншим користувачем. 
 
@@ -515,6 +511,7 @@
     <string name="internal_sdcard_root">"Коренева папка у внутрішній пам'яті"</string>
     <string name="external_sdcard_root">"Коренева папка у зовнішній пам'яті"</string>
     <string name="miui_wallpaper">Шпалери</string>
+    <string name="sports_camera">Спортивна камера</string>
     <string name="pocket_camera_picture">Фото кишенькової камери</string>
     <string name="pocket_camera_video">Відео кишенькової камери</string>
     <string name="moman_camera_picture">Зображення Moman</string>
@@ -544,9 +541,8 @@
     <string name="error_not_acceptable">Помилка сервера, синхронізація відключена</string>
     <string name="long_press_to_refocus">Утримуйте для фокусування</string>
     <string name="ubifocus_data_missing">Частина даних загублена</string>
-    <string name="ubifocus_map_error">Неможливо виконати фокусування через недійсність даних</string>
-    <string name="ubifocus_refocus_data_missing">Неможливо виконати фокусування через втрату даних</string>
-    <string name="ubifocus_refocus_map_error">Неможливо виконати перефокусування через недійсні дані</string>
+    <string name="ubifocus_data_invalid">Деякі дані цього фото не дійсні</string>
+    <string name="ubifocus_refocus_data_invalid">Не вдаеться виконать перефокусировку. Деякі дані фото відсутні.</string>
     <string name="ubifocus_refocus_download_tip">Завантажите дані перед перефокусуванням</string>
     <string name="download_refocus_data">Скачати дані фокусування</string>
     <string name="refocus_data_downloading">Завантаження даних фокусування…</string>
@@ -558,8 +554,10 @@
     <string name="paint_cancel_context">Скасувати редагування?</string>
     <string name="paint_crop_cancel_title">редагувати</string>
     <string name="paint_crop_cancel_context">Зберегти зміни?</string>
+    <string name="paint_highlight_cancel_title">Скасувати зміни?</string>
+    <string name="paint_highlight_cancel_context">Зображення буде збережено без змін</string>
     <string name="do_not_save">Не зберігати</string>
-    <string name="photo_paint_crop">Обрізати</string>
+    <string name="paint_highlight">Яскравість</string>
     <string name="free">Вільно</string>
     <string name="square">Площа</string>
     <string name="original_scale">Початковий розмір</string>
@@ -586,12 +584,21 @@
 Обкладинка альбому скоро буде доступний"</string>
     <string name="face_albumset_empty">Обкладинка не знайдено. Спробуйте використовувати більше фото.</string>
     <string name="start_to_use_face_albumset">Почати використовувати обкладинок альбомів</string>
+    <string name="enabling_face_feature">Вімкнення…</string>
+    <string name="face_albumset_pending_enable_tip">Сортування буде виконуватись при активному підключенні до мережі Wi-Fi</string>
+    <string name="face_albumset_loading_data">Завантаження даних…</string>
     <string name="face_album_not_named">Без назви</string>
     <string name="rename_face_album">"Змінити ім'я"</string>
     <string name="rename_fail_msg">"Не вдалося змінити ім'я"</string>
     <string name="merge_album_positive_button_text">ОК</string>
     <string name="confirm_merge_face_albums">" "<Data>" Об'єднати цей альбом з альбомом &lt;font color=#323232>&lt;b>%s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data>" Об'єднати альбоми з &lt;font color=#323232>&lt;b>%s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="ignore_alert_title">Приховати фото?</string>
+    <string name="ignore_album">Пропустити</string>
+    <string name="merge_album">"Об'єднати"</string>
+    <string name="merge_album_title">"Об'єднати альбоми"</string>
     <string name="create_new_face">Нова обкладинка</string>
+    <string name="pick_from_contact">Виберіть контакт</string>
     <string name="preparing_data">Підготовка даних…</string>
     <string name="ignore_face">Ігнорувати цю обкладинку</string>
     <string name="who_is_this">Хто це?</string>
@@ -599,17 +606,51 @@
     <string name="name_wrong">"Неправильне ім'я %s"</string>
     <string name="face_album_rename_hint">"Введіть ім'я"</string>
     <string name="face_move_dialog_title">Виберіть обкладинку альбому</string>
+    <string name="confirm_face">Примінити</string>
+    <string name="confirm_not_face">Не цієї людини</string>
+    <string name="confirm_all_photo_are_this_people_face">Вибрати все?</string>
+    <string name="confirm_left_photo_will_move_out">Ішні фото будуть переміщені з цього альбому</string>
+    <string name="confirm_all_photo_not_this_people_face">Всі фото не відносяться до цієї людини?</string>
+    <string name="face_album_long_tap_tip">Для групового керування утримуйте на фото профілю</string>
+    <string name="last_valentine_day">Минулий День Святого Валентина</string>
+    <string name="last_new_year">Минулий Новий Рік</string>
+    <string name="last_chinese_new_year">Минулий Китайский Новий Рік</string>
+    <string name="last_year_today">Рік тому</string>
+    <string name="return_to_top">Нажміть на вкладку, щоб повернутися наверх.</string>
+    <string name="always_rotate_alert_title">Включити автоповорот фото?</string>
+    <string name="always_rotate_alert_msg">Ви можете вимкнути цю функцію в налаштуваннях галереї</string>
+    <string name="always_rotate_alert_positive_button_text">ОК</string>
+    <string name="project_available_tip">Знайдений проектор</string>
+    <string name="single_device_project_dialog_title">Відображення на %s</string>
+    <string name="single_device_project_dialog_checkbox_text">Запомятати дисплей</string>
+    <string name="network_connected_rescan">Повторіть пошук після підключення до інтернету</string>
+    <string name="no_secret_photo">Нема секретних фото</string>
+    <string name="in_home_page_long_press_photo_setting_secret_photo">Утримайте на фото в галереї, потім оберіть пункт \"В секретний альбом\", щоб скрити фото.</string>
+    <string name="all_video_album_display_name">Всі відео</string>
+    <string name="add_event">Додати назву</string>
+    <string name="add_event_hint">Введіть назву</string>
+    <string name="event_manage_photos">Керування фото</string>
     <string name="paint_crop_tips">Для отримання кращого ефекту спробуйте помістити необхідну частину фото в сітку</string>
+    <string name="saturation_abbr">Н</string>
+    <string name="highlight_abbr">Я</string>
+    <string name="contrast_abbr">К</string>
     <string name="photo_paint_adjust">Регулювання</string>
     <string name="photo_paint_effect">Ефект</string>
     <string name="highlight2">Яскравість</string>
     <string name="action_fail_unknown_error">Відбулася невідома помилка</string>
     <string name="add_to_cloud_fail_too_many_items">Обране занадто багато елементів</string>
+    <string name="cant_delete_cloud_album">"Не вдалося видалити.
+%s - системний альбом або відправлений від іншого користувача"</string>
     <string name="cloud_share_guide_message">Ви можете ділитися своїми альбомами, переглядати альбоми друзів, а також додавати фото в альбом разом!</string>
     <string name="cloud_share_guide_title">Тепер можна обмінюватися албомами!</string>
     <string name="cloud_tab_locations">Місце розташування</string>
+    <string name="confirm_delete_album" formatted="false">"Видалити обрані альбоми із зображеннями? 
+
+альбомыв: %s 
+изображень: %s"</string>
     <string name="confirm_delete_home_merge_item">"Видалити %s фото з пам'яті пристрою та Mi Cloud?"</string>
     <string name="confirm_delete_pictures">Фото: %s</string>
+    <string name="confirm_delete_system_album">Видалити системний альбом \"%s\"?</string>
     <string name="confirm_delete_this_picture">Видалити обране фото?</string>
     <string name="confirm_delete_this_video">Видалити обране відео?</string>
     <string name="confirm_delete_videos">Відео: %s</string>
@@ -625,6 +666,10 @@
     <string name="set_image">Застосувати</string>
     <string name="slideshow_time_select_title">Тривалість слайдшоу</string>
     <string name="slideshow_time_title">Тривалість</string>
+    <string name="ubifocus_map_error">Неможливо виконати фокусування через недійсність даних</string>
+    <string name="ubifocus_refocus_data_missing">Неможливо виконати фокусування через втрату даних</string>
+    <string name="ubifocus_refocus_map_error">Неможливо виконати перефокусування через недійсні дані</string>
+    <string name="photo_paint_crop">Обрізати</string>
     <string name="photo_paint_rotate">Перевернути</string>
     <string name="mipc_1">Кишенькова камера</string>
     <string name="auto_upload_tip">"Після включення цієї функції буде створено альбом з тим же ім'ям. Існуючий альбом буде об'єднаний з новим."</string>

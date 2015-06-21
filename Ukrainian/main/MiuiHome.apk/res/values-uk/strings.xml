@@ -9,13 +9,15 @@
     <string name="cancel_action">Скасувати</string>
     <string name="bad_wallpaper_source_prompt">Не вдалося завантажити шпалери</string>
     <string name="apply_action">Застосувати</string>
+    <string name="download_action">Завантаження</string>
     <string name="apply_as_lock_wallpaper_message">Застосувати шпалери на екран блокування?</string>
     <string name="lock_screen_failed_message">Не вдалося застосувати</string>
     <string name="lock_screen_success_message">Встановлено на екран блокування</string>
     <string name="wallpaper_failed_message">Не вдалося встановити шпалери</string>
     <string name="image_too_small_message">Зображення занадто маленьке</string>
+    <string name="failed_to_load_image">Неможливо завантажити зображення</string>
     <string name="wallpaper_success_message">Шпалери встановлені</string>
-    <string name="is_setting_wallpaper_toast">Встановлення шпалер…</string>
+    <string name="is_setting_wallpaper_message">Налаштування шпалер…</string>
     <string name="current_wallpaper">Вибрані</string>
     <string name="menu_item_add_item">Додати на робочий стіл</string>
     <string name="group_shortcuts">Ярлики</string>
@@ -49,8 +51,10 @@
     <string name="status_downloaded">завантажено</string>
     <string name="status_installing">встановлення</string>
     <string name="loading_desktop">Завантаження робочого столу...</string>
+    <string name="loading_wallpaper">Завантаження шпалер…</string>
     <string name="start_activity_failed">Не вдалося запустити робочий стіл</string>
     <string name="gadget_error_text">Не вдалося завантажити віджет</string>
+    <string name="mtzgadget_missing_text">Помилка завантаження віджету</string>
     <string name="menu_edit">Режим редагування</string>
     <string name="menu_sort">Сортування</string>
     <string name="menu_launcher_setting">Налаштування робочого столу</string>
@@ -129,6 +133,7 @@
     <string name="transformation_type_rotate">Обертання</string>
     <string name="pref_screen_transformation_type_title">Ефект переходу екранів</string>
     <string name="pref_wallpaper_scroll_type_title">Прокрутка шпалер</string>
+    <string name="configure_wallpaper">Налаштування</string>
     <string name="pref_cell_layout_size">Сітка робочого столу</string>
     <string name="pref_keep_layout_title">Зберігати розстановку</string>
     <string name="pref_keep_layout_summary">Перемикання сітки робочого столу може порушити положення іконок. Включіть для збереження положення іконок.</string>
@@ -208,6 +213,7 @@
     <string name="delete_wallpaper_message">Видалити шпалери? (%1$d)</string>
     <string name="delete_wallpapers_message">Видалити шпалери? (%1$d)</string>
     <string name="is_system_wallpaper_message">Неможливо видалити системні шпалери</string>
+    <string name="cloud_app_restore_title">Очікування</string>
     <string name="app_category_finance">Фінанси</string>
     <string name="app_category_social">Спілкування</string>
     <string name="app_category_travel">Карти</string>
@@ -262,4 +268,5 @@
     <string name="disable">Вимкнути</string>
     <string name="disable_auto_start_format">%s</string>
     <string name="disable_auto_start_message">Відключити автозапуск програми?</string>
+    <string name="is_setting_wallpaper_toast">Встановлення шпалер…</string>
 </resources>

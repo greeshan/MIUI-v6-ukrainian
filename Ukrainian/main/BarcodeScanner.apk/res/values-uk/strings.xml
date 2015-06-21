@@ -40,6 +40,7 @@
     <string name="import_contact">Імпорт контакту</string>
     <string name="secure_access_web_url">Відкрити сайт</string>
     <string name="not_recommend_access_web_url">Відкрити сайт (не рекомендується)</string>
+    <string name="continue_to_website">Відкрити сайт</string>
     <string name="continue_access_web_url">Відкрити сайт</string>
     <string name="download_by_browser">Завантажити через браузер</string>
     <string name="launch_market">Відкрити Mi Маркет</string>

@@ -3,6 +3,14 @@
     <string name="search_in_web">Пошук в інтернеті</string>
     <string name="search_in_app_store">Пошук у маркеті</string>
     <string name="send_secret_code">Відправити секретний код</string>
+    <string name="xiaomi_search_label">Результати онлайн</string>
+    <string name="distance_unit_meter">м</string>
+    <string name="distance_unit_kilometer">км</string>
+    <string name="cta_declaration_title">Умови користування</string>
+    <string name="cta_declaration">Дозволити використовувати інтернет для пошуку онлайн, а також читання контактів і записів викликів?</string>
+    <string name="cta_declaration_ignore">"Запам'ятати"</string>
+    <string name="cta_declaration_positive_text">ОК</string>
+    <string name="cta_declaration_negative_text">Скасування</string>
     <string name="app_name">Пошук</string>
     <string name="search_widget">Пошук</string>
     <string name="remove_from_history">Видалити запис із історії пошуку?</string>
@@ -18,7 +26,7 @@
     <string name="search_settings">Налаштування</string>
     <string name="google_settings_category_title">Пошук Google</string>
     <string name="device_settings_category_title">Очистити історію пошуку</string>
-    <string name="system_search_category_title">Телефон</string>
+    <string name="system_search_category_title">Пристрій</string>
     <string name="search_sources">Елементи пошуку</string>
     <string name="search_sources_summary">Виберіть, що шукати в телефоні</string>
     <string name="clear_shortcuts">Очистити історію пошуку</string>
@@ -26,6 +34,7 @@
     <string name="clear_shortcuts_prompt">Вся історія пошукових запитів буде очищена</string>
     <string name="clear_shortcuts_agree">Очистити</string>
     <string name="clear_shortcuts_disagree">Скасування</string>
+    <string name="recently_shortcut_label">Недавні</string>
     <string name="menu_help">Допомога</string>
     <string name="google_search_label">Google</string>
     <string name="google_app_label">Пошук Google</string>

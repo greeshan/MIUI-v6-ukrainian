@@ -376,6 +376,7 @@ sim карта буде очищена при невдалій спробі вв
     <string name="incall_status_dialed_mmi">Запуск послідовності MMI…</string>
     <string name="incall_error_turn_off_airplane_mode">Вимкніть режим польоту</string>
     <string name="incall_error_no_active_sim">Немає активної SIM карти</string>
+    <string name="incall_error_sim_deactive">SIM карта неактивна</string>
     <string name="emergency_enable_radio_dialog_title">Екстрений виклик</string>
     <string name="dial_emergency_error">Номер \"%s\" не є екстреним!</string>
     <string name="dial_emergency_empty_error">Виклик не здійснений, наберіть номер екстреного виклику!</string>
@@ -631,6 +632,19 @@ sim карта буде очищена при невдалій спробі вв
     <string name="telocation_confim_delete_title">Видалити повідомлення?</string>
     <string name="telocation_error_message_number">%s підтримує тільки цифри</string>
     <string name="telocation_jituan_error_message_number">%s підтримує цифри та символи</string>
+    <string name="ivr_parameter_settings">Налаштування голосового меню</string>
+    <string name="ivr_mo_area_code_settings">Поточний код регіону</string>
+    <string name="ivr_mo_area_code_settings_hint">Введіть код регіону</string>
+    <string name="ivr_type_settings">Тарифний план</string>
+    <string name="ivr_type_settings_hint">Введіть код тарифного плану</string>
+    <string name="ivr_type_cm_1">M-Zone</string>
+    <string name="ivr_type_cm_2">GoTone</string>
+    <string name="ivr_type_cm_3">Easy own</string>
+    <string name="ivr_type_cu_1">China Unicom 3G</string>
+    <string name="ivr_type_cu_2">China Unicom 4G</string>
+    <string name="ivr_type_cu_3">China Unicom 2G</string>
+    <string name="ivr_type_ct_1">China Telecom VIP</string>
+    <string name="ivr_type_ct_2">China Telecom customer</string>
     <string name="call_description_recording">Запис виклику…</string>
     <string name="call_record_auto_whitelist_no_item">Немає контактів</string>
     <string name="call_record_auto_whitelist">Список номерів</string>
@@ -705,6 +719,8 @@ sim карта буде очищена при невдалій спробі вв
     <string name="turnover_mute_summary">Переверніть телефон при вхідному виклику для вимикання мелодії виклику. Функція працює, коли телефон перебуває в горизонтальному положенні</string>
     <string name="handon_ringer_summary">Пристрій не буде вібрувати під час розмови</string>
     <string name="handon_ringer_title">Не вібрувати</string>
+    <string name="flash_when_ring_summary">Мигати вспишкою під час вхідного виклику</string>
+    <string name="flash_when_ring_title">Повідомлення вспишкою</string>
     <string name="enable_proximity_summary">Використовувати датчик наближення для вимкнення екрану під час розмови</string>
     <string name="enable_proximity_title">Датчик наближення</string>
     <string name="pocket_mode_summary">Пристрій заблокується автоматично при переміщенні в кишені</string>
@@ -815,6 +831,7 @@ sim карта буде очищена при невдалій спробі вв
     <string name="gsm_umts_network_preferences_title">Режим мережі</string>
     <string name="gsm_umts_network_preferences_dialogtitle">Режим мережі</string>
     <string name="uplmn_numeric_is_empty">Введіть ID мережі</string>
+    <string name="voip_setting">Налаштування VoIP</string>
     <string name="msim_setting_screen_title">SIM карти й мобільні мережі</string>
     <string name="msim_setting_categery_title">Інформація SIM карти</string>
     <string name="msim_general_setting">Загальні</string>
@@ -856,6 +873,9 @@ sim карта буде очищена при невдалій спробі вв
     <string name="preference_telocation_summary_countrycode_off">не набирати код країни</string>
     <string name="telephony_setting">Виклики</string>
     <string name="international_roaming_setting">Міжнародний роумінг</string>
+    <string name="config_default_data_sim">Налаштування</string>
+    <string name="got_it">ОК</string>
+    <string name="can_not_use_for_not_data_sim">(слід встановити SIM за замовчанням)</string>
     <string name="sim_cards_network_mode_changed_summary">Натисніть для перегляду налаштувань</string>
     <string name="sim_cards_network_mode_changed_title">Виявлена нова SIM карта</string>
     <string name="accessibility_call_muted">Звук вимкнений</string>

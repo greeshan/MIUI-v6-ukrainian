@@ -22,7 +22,7 @@
     <string name="note_link_select">Виділити текст</string>
     <string name="menu_create_folder">Нова папка</string>
     <string name="menu_delete">Видалити</string>
-    <string name="menu_move">Перемістити</string>
+    <string name="menu_folders">Папки</string>
     <string name="menu_stick">Закріпити</string>
     <string name="menu_unstick">Відкріпити</string>
     <string name="folder_exist">Папка з такою назвою вже існує</string>
@@ -111,6 +111,7 @@
   - Установка нагадувань
 
 "</string>
+    <string name="menu_move">Перемістити</string>
     <string name="sns_message_building">Створення повідомлення…</string>
     <string name="sns_message_sending">Відправлення…</string>
     <string name="widget_under_visit_mode">Неможливо переглянути нотатки в режимі \"Гість\"</string>

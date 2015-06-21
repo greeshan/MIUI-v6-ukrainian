@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="moon_desc">
+        <item>Новий місяць</item>
+        <item>Молодий місяць</item>
+        <item>Перша чверть</item>
+        <item>Прибуваючий місяць</item>
+        <item>Повний місяць</item>
+        <item>Убуваючий місяць</item>
+        <item>Остання чверть</item>
+        <item>Убуваючий місяць</item>
+        <item>Старий місяць</item>
+    </string-array>
     <string-array name="weather_type">
         <item>Ясно</item>
         <item>Хмарно</item>
@@ -45,16 +56,5 @@
         <item>Вітер ПС</item>
         <item>Вітер З</item>
         <item>Вітер ПЗ</item>
-    </string-array>
-    <string-array name="moon_desc">
-        <item>Новий місяць</item>
-        <item>Молодий місяць</item>
-        <item>Перша чверть</item>
-        <item>Прибуваючий місяць</item>
-        <item>Повний місяць</item>
-        <item>Убуваючий місяць</item>
-        <item>Остання чверть</item>
-        <item>Убуваючий місяць</item>
-        <item>Старий місяць</item>
     </string-array>
 </resources>

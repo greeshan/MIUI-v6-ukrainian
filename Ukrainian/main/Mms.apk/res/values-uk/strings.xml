@@ -37,6 +37,7 @@
     <string name="add_slide_hint">Натисніть, щоб додати.</string>
     <string name="discard_slideshow">Скасувати слайд-шоу</string>
     <string name="slide_show_part">Частина %1$s з %2$s</string>
+    <string name="select_copy_text">Скопіювати текст</string>
     <string name="remove_text">Видалити текст</string>
     <string name="add_picture">Зображення</string>
     <string name="remove_picture">Видалити картинку</string>
@@ -81,6 +82,8 @@
     <string name="too_many_attachments">Для вкладень встановлене обмеження: %1$s. Буде додано вкладень: %2$s.</string>
     <string name="adding_attachments_title">Додавання вкладень</string>
     <string name="adding_attachments">Додавання…</string>
+    <string name="recipients_over_size">Занадто багато одержувачів</string>
+    <string name="over_max_mms_size">Перевищений розмір MMS повідомлення</string>
     <string name="preview">Переглянути</string>
     <string name="preview_slideshow">Попередній перегляд</string>
     <string name="replace_image">Замінити картинку</string>
@@ -108,6 +111,7 @@
     <string name="pref_title_sms_delete">Максимальна кількість SMS</string>
     <string name="pref_title_mms_delete">Максимальна кількість MMS</string>
     <string name="pref_messages_to_save">Встановити кількість повідомлень у діалозі для зберігання</string>
+    <string name="pref_title_storage_status">"Стан пам'яті повідомлень"</string>
     <string name="pref_title_mms_auto_retrieval">Автозавантаження</string>
     <string name="pref_summary_mms_auto_retrieval">Автоматично завантажувати MMS повідомлення</string>
     <string name="pref_title_mms_retrieval_during_roaming">Автозавантаження в роумінзі</string>
@@ -123,7 +127,9 @@
     <string name="confirm_restore_all_title">Відновити всі повідомлення від цього номера?</string>
     <string name="confirm_no_block_title">Скасувати блокування й відновити в повідомлення?</string>
     <string name="confirm_no_block_positive">Скасувати блокування</string>
+    <string name="confirm_restore_checkbox">Розблокувати повідомлення з цього номера</string>
     <string name="confirm_restore_title">Відновити повідомлення?</string>
+    <string name="confirm_restore_message">Відновити вибрані повідомлення?</string>
     <string name="confirm_restore_positive">Відновити</string>
     <string name="delete_unlocked">Видалити закріплені повідомлення</string>
     <string name="delete">Видалити</string>
@@ -266,6 +272,7 @@
     <string name="message_pending">Відправлення</string>
     <string name="message_readed">Прочитане</string>
     <string name="message_rejected">Відхилене</string>
+    <string name="message_expired">Термін дії закінчився</string>
     <string name="resent_message">Повторити</string>
     <string name="group_resend_message">Переслати(%d)</string>
     <string name="nosend_message">Не відправлено</string>
@@ -305,6 +312,8 @@
     <string name="pref_summary_wake_up_screen">Включення екрану при одержанні нових повідомлень</string>
     <string name="pref_title_delivery_reports">Звіт про доставку</string>
     <string name="pref_summary_delivery_reports">Запитувати звіт про доставку для всіх повідомлень, що відправляються,</string>
+    <string name="pref_title_send_delivery_reports">Відправляти звіт про прийом</string>
+    <string name="pref_summary_send_delivery_reports">Відправляти звіт про надходження повідомлень відправнику</string>
     <string name="pref_title_ringtone_repeat">Кількість нагадувань</string>
     <string name="pref_title_ringtone_repeat_summary">Кількість звукових сповіщень при прийомі повідомлень, коли екран вимкнено:</string>
     <string name="pref_other_title">Інші</string>
@@ -541,6 +550,20 @@ sms (%1$d), MMS (%2$d)."</string>
     <string name="audio_download_failed">Не вдалося завантажити запис</string>
     <string name="hms_uri_param_err">ID запиту URL Mipub не може бути порожнім</string>
     <string name="block_messaging_entry_title">Блокування SMS</string>
+    <string name="message_contact">Контакт:</string>
+    <string name="message_number">Номер телефону:</string>
+    <string name="storage_dialog_mms">MMS: %d</string>
+    <string name="storage_dialog_mms_size">Розмір MMS:</string>
+    <string name="storage_dialog_attachments">Вкладення MMS:</string>
+    <string name="storage_dialog_sms">SMS: %d</string>
+    <string name="storage_dialog_database">База даних:</string>
+    <string name="storage_dialog_available_space">Вільно:</string>
+    <string name="storage_unavailable">Нема вільного місця</string>
+    <string name="security_alert_desc">Відправник відсутній у списку контактів. <font color="red"><u>Надіслати звіт</u></font></string>
+    <string name="security_alert_dialog_title">Звіт</string>
+    <string name="security_alert_dialog_desc">Надіслати номер відправника (%s) у Xiaomi для розгляду</string>
+    <string name="sms_report_failed">Не вдається надіслати звіт</string>
+    <string name="sms_report_success">Звіт надіслано</string>
     <string name="add_bookmark">Вибрані</string>
     <string name="mx_activate_int_popup_msg">Обмін хмарними повідомленнями дозволяє користувачам MIUI спілкуватися між собою без використання коштів</string>
     <string name="mx_activate_popup_msg">Хмарні повідомлення дозволяють користувачам MIUI обмінюватися повідомленнями безкоштовно через інтернет</string>

@@ -10,6 +10,7 @@
     <string name="presonal_center">Налаштування акаунта</string>
     <string name="local_list_item_history">ІсторІя</string>
     <string name="access_history">Історія доступа</string>
+    <string name="local_program">Локальні канали</string>
     <string name="hotlist_name">Топ Xiaomi</string>
     <string name="updated">" оновлено"</string>
     <string name="load_failed">Не вдається завантажити. Інтернет недоступний.</string>
@@ -47,14 +48,19 @@
     <string name="download_successful">Завантажено</string>
     <string name="download_invalid">Нема ресурсів</string>
     <string name="download_start_toast">Пвдготовка завантаження %1$s(%2$d кбіт/с)</string>
-    <string name="download_quality_toast">Оберіть якість завантаження</string>
+    <string name="batch_download_start_toast">Очікування завантаження</string>
+    <string name="dialog_title_listen_quality">Якість відтворення</string>
     <string name="download_network_is_not_available">Не вдається завантажити. Інтернет недоступний.</string>
     <string name="play_local_sound">Відтворення локального радіо: %1$s</string>
     <string name="no_network_text">"Не вдається під'єднатись до інтернету"</string>
+    <string name="metered_network_text">Натисніть, щоб одержати дані про трафік.</string>
     <string name="use_fm_radio_failed">На цьому пристрої не працює FM радіо</string>
     <string name="no_network_button_radio">Використовувати FM радіо</string>
     <string name="no_network_button_refresh">Обновити</string>
     <string name="no_display_history_text">Історія пуста</string>
+    <string name="no_download_text">Ні завантажень</string>
+    <string name="no_display_channel_text">Ні каналів</string>
+    <string name="no_display_other_text">Немає результатів</string>
     <string name="favorite">Обрано</string>
     <string name="unfavorite">З обраних</string>
     <string name="like_channel">Схожі канали: %1$s</string>
@@ -87,6 +93,15 @@
     <string name="tone_high_quality_summary">Висока якість по Wi-Fi та мобільної мережі</string>
     <string name="dialog_title_tone_quality">Оберіть якість відтворення</string>
     <string name="share">Відправити</string>
+    <string name="channel_off">Програма вже не існує</string>
+    <string name="action_item_delete">Видалити</string>
+    <string name="confirm_delete_history_text">Видалити вибране?</string>
+    <string name="similar_programs">Схожі програми</string>
+    <string name="all">Усе</string>
+    <string name="batch_download">Пакетне завантаження</string>
+    <string name="continue_play">Відтворити</string>
+    <string name="section">Вибір</string>
+    <string name="get_channel_failed">Не вдалося отримати інформацію</string>
     <string name="impunity_declaration_title">Умови користування</string>
     <string name="impunity_declaration">Дозволити використовувати мобільний інтернет для онлайн радіо?</string>
     <string name="impunity_declaration_ignore">"Запам'ятати"</string>
@@ -247,4 +262,5 @@
     <string name="group_favor">Обрані станції</string>
     <string name="group_other">Інші станції</string>
     <string name="alert_frequency_duplicate">Така станція вже існує</string>
+    <string name="download_quality_toast">Оберіть якість завантаження</string>
 </resources>

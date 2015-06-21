@@ -37,10 +37,7 @@
     <string name="vibrate_when_ringing">Вібрувати при сигналі</string>
     <string name="start_up">Старт</string>
     <string name="cancel">Очистити</string>
-    <string name="timer_message_00">%1$d хв. %2$d сек.</string>
-    <string name="timer_message_01">%1$d хв. і %2$d сек.</string>
-    <string name="timer_message_10">%1$d хв. і %2$d сек.</string>
-    <string name="timer_message">Таймер на %1$d хв. і %2$d сек.</string>
+    <string name="timer_item_picker_hour">Г</string>
     <string name="timer_item_picker_minute">М</string>
     <string name="timer_item_picker_second">сек.</string>
     <string name="timer_item_duration_display">%1$d хв. %2$d сек.</string>
@@ -117,8 +114,12 @@
     <string name="control_set_alarm_with_existing">Будильник встановлено на %s</string>
     <string name="menu_edit_systemtime">Налаштування дати і часу</string>
     <string name="snooze_message">Відкласти на %d хв.</string>
+    <string name="timer_message">Таймер на %1$d хв. і %2$d сек.</string>
     <string name="timer_message_with_hour">Таймер на %1$d г. і %2$d хв.</string>
     <string name="timer_message_with_seconds">%1$d сек.</string>
+    <string name="timer_message_00">%1$d хв. %2$d сек.</string>
+    <string name="timer_message_01">%1$d хв. і %2$d сек.</string>
+    <string name="timer_message_10">%1$d хв. і %2$d сек.</string>
     <string name="abbrev_wday_month_day_no_year">dMMMMEEE</string>
     <string name="add_time_zone">Додати часовий пояс</string>
     <string name="alarm_alert_dismiss_now_text">Вимкнути</string>

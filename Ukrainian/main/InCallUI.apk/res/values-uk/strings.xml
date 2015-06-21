@@ -609,6 +609,7 @@
     <string name="online_check_warning_info_by_cmb">"Завжди перевіряйте особистість людини по телефону, перш ніж відповідати на питання, пов'язані з вашими особистими даними."</string>
     <string name="online_check_warning_type_by_cmb">Спам</string>
     <string name="livetalk_provider_info">Підтримка: %s</string>
+    <string name="livetalk_left_minute">Залишилося %s хв.</string>
     <string name="livetalk_waiting">Очікування...</string>
     <string name="jeejen_answer_call_text">Відповісти</string>
     <string name="jeejen_reject_call_text">Виклик відхилений</string>

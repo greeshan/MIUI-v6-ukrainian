@@ -213,7 +213,6 @@
     <string name="simple_mode_button_text_hand_night">Вимкнути нічний режим</string>
     <string name="simple_mode_button_text_panorama">Вимкнути режим панорами</string>
     <string name="simple_mode_button_text_color_effect">Вимкнути ефекти</string>
-    <string name="simple_mode_button_text_audio_capture">Вимкнути голосову зйомку</string>
     <string name="simple_mode_button_text_slow_video">Вимкнути прискорену зйомку</string>
     <string name="simple_mode_button_text_fast_video">Вимкнути вповільнену зйомку</string>
     <string name="pref_video_captrue_ability_title">Захоплення кадра при зйомці</string>
@@ -240,7 +239,6 @@
     <string name="pref_camera_exposuretime_entry_125">1/125 сек.</string>
     <string name="pref_camera_exposuretime_entry_250">1/250 сек.</string>
     <string name="pref_camera_exposuretime_entry_1000">1/1000 сек.</string>
-    <string name="pref_camera_exposuretime_entry_5000">1/5000 сек.</string>
     <string name="face_analyze_info">Вік: %2$s | Стать: %1$s</string>
     <string name="face_analyze_info_male">Чоловічий</string>
     <string name="face_analyze_info_female">Жіночий</string>
@@ -266,7 +264,6 @@
     <string name="face_beauty_age_alias_female_60_m">Жіночий 60</string>
     <string name="simple_mode_button_text_face_beauty">Вимкнути поліпшення тону шкіри</string>
     <string name="pref_face_beauty_title">Тон шкіри</string>
-    <string name="toast_cannot_preview_image_when_screen_locked">Неможливо переглядати фото або відео, коли екран заблокований</string>
     <string name="pref_priority_storage_title">"Зберігати на зовнішню пам'ять"</string>
     <string name="setting_top_text">Функції</string>
     <string name="pref_video_speed_fast_title">Прискорена</string>
@@ -310,11 +307,6 @@
     <string name="pref_camera_hdr_entry_live">Живий</string>
     <string name="pref_simple_hdr_entry_off">Вимкнений</string>
     <string name="pref_simple_hdr_entry_on">Ввімкнений</string>
-    <string name="pref_camera_countdown_title">Таймер</string>
-    <string name="simple_mode_button_text_countdown">Вимкнути таймер</string>
-    <string name="pref_camera_countdown_entry_3s">3 сек.</string>
-    <string name="pref_camera_countdown_entry_5s">5 сек.</string>
-    <string name="pref_camera_countdown_entry_10s">10 сек.</string>
     <string name="pref_camera_delay_capture_title">Таймер</string>
     <string name="simple_mode_button_text_delay_capture">Вимкнути таймер</string>
     <string name="pref_camera_delay_capture_entry_audio">Голос</string>
@@ -327,6 +319,8 @@
     <string name="pref_camera_peak_title">Відображення фокуса</string>
     <string name="pref_camera_peak_entry_off">вимкнений</string>
     <string name="pref_camera_peak_entry_on">увімкнений</string>
+    <string name="pref_camera_gradienter_title">Градіометр</string>
+    <string name="simple_mode_button_text_gradienter">Вимкнути градіометр</string>
     <string name="edit">Змінити</string>
     <string name="details">Інформація</string>
     <string name="path">Шлях</string>
@@ -460,9 +454,11 @@
     <string name="pref_camera_auto_focus_title_entry_off">Вимкнене</string>
     <string name="pref_camera_auto_focus_title_entry_on">Увімкнене</string>
     <string name="pref_camera_coloreffect_entry_planet">Спіраль</string>
+    <string name="pref_camera_countdown_title">Таймер</string>
     <string name="pref_camera_current_k_value">Поточне значення</string>
     <string name="pref_camera_default_suffix">" (за замовчуванням)"</string>
     <string name="pref_camera_denoise_title">Усунення шумів</string>
+    <string name="pref_camera_exposuretime_entry_5000">1/5000 сек.</string>
     <string name="pref_camera_exposuretime_title">Витримка</string>
     <string name="pref_camera_focusmode_entry_lock">Блокування</string>
     <string name="pref_camera_hdr_type_entry_live">Живий</string>
@@ -525,6 +521,8 @@
     <string name="show_images_only">Тільки фото</string>
     <string name="show_on_map">Показати на карті</string>
     <string name="show_videos_only">Тільки відео</string>
+    <string name="simple_mode_button_text_audio_capture">Вимкнути голосову зйомку</string>
+    <string name="simple_mode_button_text_countdown">Вимкнути таймер</string>
     <string name="simple_mode_title">Звичайний режим</string>
     <string name="slideshow">Слайд-шоу</string>
     <string name="snapshot_qcif_and_d1">Тільки знімок при записі відео підтримує цю роздільну здатніть</string>
@@ -534,6 +532,7 @@
     <string name="toast_burst_snap_forbidden_when_face_beauty_open">Серійна зйомка недоступна, коли включений режим поліпшення тону шкіри</string>
     <string name="toast_burst_snap_forbidden_when_hdr_open">Серійна зйомка недоступна, коли ввімкнений режим HDR.</string>
     <string name="toast_burst_snap_forbidden_when_iso_not_auto">Серійна зйомка не підтримується, якщо ISO не встановлене в режим \"Авто\".</string>
+    <string name="toast_cannot_preview_image_when_screen_locked">Неможливо переглядати фото або відео, коли екран заблокований</string>
     <string name="undo">Скасування</string>
     <string name="unit_mm">мм</string>
     <string name="video_camera_label">Відеокамера</string>
@@ -561,6 +560,9 @@
     <string name="pref_camera_sound_entry_off">Вимкнений</string>
     <string name="pref_camera_sound_entry_on">Увімкнений</string>
     <string name="pref_camera_asd_title">Автовизначення сцен</string>
+    <string name="pref_camera_countdown_entry_10s">10 сек.</string>
+    <string name="pref_camera_countdown_entry_3s">3 сек.</string>
+    <string name="pref_camera_countdown_entry_5s">5 сек.</string>
     <string name="pref_camera_facedetection_entry_off">Вимкнено</string>
     <string name="pref_camera_facedetection_entry_on">Увімкнено</string>
     <string name="pref_camera_movie_solid_entry_off">Вимкнено</string>

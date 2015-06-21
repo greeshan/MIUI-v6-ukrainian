@@ -174,6 +174,18 @@
         <item>Прозорий</item>
         <item>Білий</item>
     </string-array>
+    <string-array name="miui_reminder_minutes_labels">
+        <item>Відключено</item>
+        <item>По факту</item>
+        <item>За 5 хвилин</item>
+        <item>За 10 хвилин</item>
+        <item>За 15 хвилин</item>
+        <item>За 30 хвилин</item>
+        <item>За 1 годину</item>
+        <item>За 1 день</item>
+        <item>За 2 дні</item>
+        <item>За 1 тиждень</item>
+    </string-array>
     <string-array name="repeat_frequency_spinner">
         <item>дн.</item>
         <item>тиж.</item>
